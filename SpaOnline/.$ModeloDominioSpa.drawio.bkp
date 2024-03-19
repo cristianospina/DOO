@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-03-18T18:37:59.642Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="rFzLk2KSj77rTb8zboaS" version="23.1.5" type="device" pages="12">
+<mxfile host="Electron" modified="2024-03-18T19:18:50.167Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="Owzk4xad7ZKfK8XcVss8" version="23.1.5" type="device" pages="12">
   <diagram id="9Fxw6sm0tvmWndp8JFvR" name="1. BigPicture">
     <mxGraphModel dx="864" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -571,7 +571,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="88RU5nbWVPzI_mc1GWTv" name="4.2 Productos-ModeloDominioAcotado">
-    <mxGraphModel dx="1691" dy="1677" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1862" dy="1785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -640,6 +640,24 @@
         </mxCell>
         <mxCell id="srl2IHTlMoNj_iCLQBqA-1" value="&amp;lt;&amp;lt;needed of&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-210" y="13" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vZQnN5kV9zjGX1LgjpKg-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="vZQnN5kV9zjGX1LgjpKg-1" target="HxSWgQgU_HPCJ4dW5Wt6-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZQnN5kV9zjGX1LgjpKg-1" value="Categoria" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="580" y="178" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vZQnN5kV9zjGX1LgjpKg-3" value="Tiene-&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="592" y="116" width="59" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vZQnN5kV9zjGX1LgjpKg-4" value="Tiene-&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="630" y="115" width="59" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vZQnN5kV9zjGX1LgjpKg-5" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="672" y="150" width="25" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vZQnN5kV9zjGX1LgjpKg-6" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="70" width="36" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1140,7 +1158,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LmDs8YIagqLJW_qHY7uN" name="4.8 Pagos- ModeloDominioAcotado">
-    <mxGraphModel dx="1665" dy="698" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="880" dy="524" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1220,7 +1238,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PuNJeE4REoV-GKbEdBdx" name="4.9 Notificacion- ModeloDominioAcotado">
-    <mxGraphModel dx="2689" dy="1785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2911" dy="1918" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
