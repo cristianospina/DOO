@@ -1,0 +1,65 @@
+<mxfile host="Electron" modified="2024-03-26T11:30:43.215Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="vmtabqyVCO8dNFhoOlHy" version="22.1.2" type="device">
+  <diagram name="Página-1" id="zBhicTsyFizKEP22qASS">
+    <mxGraphModel dx="1687" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tLENe-P63r3Lutoy_OWt-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="60" y="40" width="110" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="tLENe-P63r3Lutoy_OWt-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="tLENe-P63r3Lutoy_OWt-1" source="tLENe-P63r3Lutoy_OWt-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="629.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tLENe-P63r3Lutoy_OWt-3" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 36px;&quot;&gt;1&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="tLENe-P63r3Lutoy_OWt-1">
+          <mxGeometry width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tLENe-P63r3Lutoy_OWt-12" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="350" y="40" width="110" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="tLENe-P63r3Lutoy_OWt-14" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 36px;&quot;&gt;2&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="tLENe-P63r3Lutoy_OWt-12">
+          <mxGeometry width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tLENe-P63r3Lutoy_OWt-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="tLENe-P63r3Lutoy_OWt-12" source="tLENe-P63r3Lutoy_OWt-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="640" as="targetPoint" />
+            <mxPoint x="390" y="152.64187866927594" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tLENe-P63r3Lutoy_OWt-19" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 36px;&quot;&gt;4&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="850" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tLENe-P63r3Lutoy_OWt-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="tLENe-P63r3Lutoy_OWt-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="680" as="targetPoint" />
+            <mxPoint x="1740" y="204.63157894736844" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tLENe-P63r3Lutoy_OWt-22" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1110" y="40" width="100" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="tLENe-P63r3Lutoy_OWt-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="tLENe-P63r3Lutoy_OWt-22" source="tLENe-P63r3Lutoy_OWt-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tLENe-P63r3Lutoy_OWt-24" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 36px;&quot;&gt;5&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="tLENe-P63r3Lutoy_OWt-22">
+          <mxGeometry width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tLENe-P63r3Lutoy_OWt-26" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="600" y="40" width="100" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="tLENe-P63r3Lutoy_OWt-28" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 36px;&quot;&gt;3&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="tLENe-P63r3Lutoy_OWt-26">
+          <mxGeometry width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tLENe-P63r3Lutoy_OWt-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="tLENe-P63r3Lutoy_OWt-26" source="tLENe-P63r3Lutoy_OWt-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="640" as="targetPoint" />
+            <mxPoint x="640" y="152.64187866927594" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
