@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\SpaOnline",
+    "\\SpaOnline\\SpaOnline",
+    "\\SpaOnline\\SpaOnline\\co.edu.uco.spaonline",
+    "\\SpaOnline\\SpaOnline\\co.edu.uco.spaonline\\crosscutting",
+    "\\SpaOnline\\SpaOnline\\co.edu.uco.spaonline\\crosscutting\\excepciones",
+    "\\SpaOnline\\SpaOnline\\co.edu.uco.spaonline\\crosscutting\\messages",
+    "\\SpaOnline\\SpaOnline\\co.edu.uco.spaonline\\crosscutting\\messages\\enumerator",
+    "\\SpaOnline\\SpaOnline\\co.edu.uco.spaonline\\crosscutting\\util"
+  ],
+  "SelectedNode": "\\SpaOnline\\SpaOnline\\co.edu.uco.spaonline\\crosscutting\\messages\\Mensaje.cs",
+  "PreviewInSolutionExplorer": false
+}
