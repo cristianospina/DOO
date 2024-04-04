@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-04-04T01:32:29.581Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="LtByFB1rhR3kIfwFYEez" version="23.0.2" type="device" pages="4">
+<mxfile host="Electron" modified="2024-04-04T02:49:37.628Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="euVyB14Xytvbo8_bVccn" version="23.0.2" type="device" pages="4">
   <diagram name="Flujo de eventos" id="zBhicTsyFizKEP22qASS">
-    <mxGraphModel dx="1104" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="864" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,11 +31,8 @@
             <mxPoint x="390" y="152.64187866927594" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DtO1B4QK6cwAfSESsc6j-5" value="ProductoPorFabricante" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="DtO1B4QK6cwAfSESsc6j-1" vertex="1">
-          <mxGeometry x="-25" y="130" width="130" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="WAaol5IKZTOwJ1lTsIst-6" value="ProductoInventario" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="DtO1B4QK6cwAfSESsc6j-1" vertex="1">
-          <mxGeometry x="-25" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="-20" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DtO1B4QK6cwAfSESsc6j-8" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="470" y="40" width="110" height="650" as="geometry" />
@@ -52,13 +49,7 @@
         <mxCell id="DtO1B4QK6cwAfSESsc6j-11" value="Producto" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="DtO1B4QK6cwAfSESsc6j-8" vertex="1">
           <mxGeometry x="-20" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DtO1B4QK6cwAfSESsc6j-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="WAaol5IKZTOwJ1lTsIst-5" target="DtO1B4QK6cwAfSESsc6j-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="DtO1B4QK6cwAfSESsc6j-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="WAaol5IKZTOwJ1lTsIst-5" target="WAaol5IKZTOwJ1lTsIst-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DtO1B4QK6cwAfSESsc6j-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="DtO1B4QK6cwAfSESsc6j-5" target="DtO1B4QK6cwAfSESsc6j-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DtO1B4QK6cwAfSESsc6j-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="WAaol5IKZTOwJ1lTsIst-6" target="DtO1B4QK6cwAfSESsc6j-11" edge="1">
@@ -68,7 +59,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LfHUw2b1Mqzj6z31MRwS" name="Categoria - Event Storming">
-    <mxGraphModel dx="2987" dy="2439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1691" dy="1677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -427,7 +418,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="ProductoInventario - Event Storming" id="CeB-271_MRE5wn8Y6erl">
-    <mxGraphModel dx="3707" dy="2862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2987" dy="2439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="p3hYtK72WEkqCXA0yhvl-0" />
         <mxCell id="p3hYtK72WEkqCXA0yhvl-1" parent="p3hYtK72WEkqCXA0yhvl-0" />
@@ -785,7 +776,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Producto - Event Storming" id="ZUcvZJ5-PxglcxbOhly8">
-    <mxGraphModel dx="1931" dy="1677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2398" dy="2093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="k1vFS3CNRWPC7cyn7dj1-0" />
         <mxCell id="k1vFS3CNRWPC7cyn7dj1-1" parent="k1vFS3CNRWPC7cyn7dj1-0" />
