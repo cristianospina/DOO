@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4EBB0E7-9475-CC1D-4F4B-8857C79CF953" name="Categoria_producto">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>20BE2FB4-BF63-6E13-AEA2-2A91AA6CC315</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCategoriaProducto" id="11B753DF-0BA9-7565-6E14-12AC4FB173CD">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>4FC13591-D4FE-407B-F366-A19636B9A039</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<ownDataTypeParameters>,32,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreCategoriaProducto" id="EFAC2D48-BFFA-3961-1C7C-C1E5F5FFF61B">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>32B229B2-6C86-9A49-4E60-93F2C7500B3B</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3BF30F66-BFBE-4135-2E84-ABB293618691" name="Categoria_producto_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>0B316EC2-EBD2-8FB4-29FE-939C5AADBD3A</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11B753DF-0BA9-7565-6E14-12AC4FB173CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

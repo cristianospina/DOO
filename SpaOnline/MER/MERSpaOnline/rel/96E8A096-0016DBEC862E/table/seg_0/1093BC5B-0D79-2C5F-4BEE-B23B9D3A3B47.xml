@@ -1,0 +1,194 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1093BC5B-0D79-2C5F-4BEE-B23B9D3A3B47" name="reserva">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>7FDCA50D-9EA5-D2AA-214A-680726082647</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idReserva" id="003FC353-32D1-A3AB-A327-F5C512EDC36A">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>686B4387-6134-8CFB-55F6-794582950447</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<ownDataTypeParameters>,32,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaReserva" id="D1503CAA-BFFB-AB86-F1A6-7D21C2DECCC2">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>0C115577-4219-3199-AA11-1C53F96B0C6A</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horaReserva" id="D12960F4-A0F7-2BCC-D759-59F51732C4C8">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>642530EF-F864-D996-4A48-C457CD495035</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estadoReserva" id="A163A777-AD1E-221B-5464-5FBC6977BC67">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>DC764EA0-BFEE-C1DE-B3D4-B76DABC49C3B</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sucursales_idSucursal" id="065DE2E5-E4B6-32D0-94B7-C7E40CCC0179">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>F88D3B72-0499-5DEF-3FD0-78C1F699FF1C</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1377A0E-06AC-9754-E5EE-7D95B8C96378" referredColumn="A7868C3D-6E2D-256F-61A8-88775AD30BA7"/>
+</associations>
+</Column>
+<Column name="pago_idPagos" id="D3EE7C96-8267-439C-CF04-55A888810769">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>DEE1595A-4D7C-C8F3-120F-2D47FF9E6FB2</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7984EB1E-BB1F-86F6-78D7-AA427035447F" referredColumn="CAF23E7A-F263-8394-41FA-07888B35D006"/>
+</associations>
+</Column>
+<Column name="pago_idTipoPago" id="838A834E-DE2B-CC77-1D91-18CF928AD94B">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>10712046-6DC6-8EE5-32AA-410304FD400B</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7984EB1E-BB1F-86F6-78D7-AA427035447F" referredColumn="A586100B-7D9B-DBBD-ACF2-9A877248768D"/>
+</associations>
+</Column>
+<Column name="consentimiento_consentimiento_ID" id="5A26B22D-9338-2F52-FC30-01902C5B6C76">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E652CDE-A55E-8BF9-96BE-A712A72D5330" referredColumn="C6F8FC4D-8AAB-94D6-7718-54BCBBF1A6AA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C3BDD64-72B5-1CDC-C330-FC2A66F5308A" name="reserva_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>105CD884-444C-2E98-B66E-A381351BB076</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="003FC353-32D1-A3AB-A327-F5C512EDC36A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25F15457-AEB4-3227-76CF-D4C65367F5C8" name="reserva__IDX">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F3C85B02-0A3F-15E7-141E-B5663D8502EA</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5A26B22D-9338-2F52-FC30-01902C5B6C76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3D80E62-C05D-72C0-FBDB-DC5FCDAEC023" name="reserva__IDXv1">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A3C9F389-FD1E-9694-2082-B39D6F66C76B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D3EE7C96-8267-439C-CF04-55A888810769"/>
+<colUsage columnID="838A834E-DE2B-CC77-1D91-18CF928AD94B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAA7DAD8-09E6-A9AB-F82A-B7F672E1610D" name="reserva_sucursales_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>87FF74DD-9DFD-AC92-8935-DC5B321735A4</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="065DE2E5-E4B6-32D0-94B7-C7E40CCC0179"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="316A51DC-A8AB-0F71-CF1B-88BA7B47A218" name="reserva_consentimiento_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>F3C85B02-0A3F-15E7-141E-B5663D8502EA</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A26B22D-9338-2F52-FC30-01902C5B6C76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E0ED6F6-CC51-A5DA-B60F-1F240B3BDF9A" name="reserva_pago_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>A3C9F389-FD1E-9694-2082-B39D6F66C76B</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3EE7C96-8267-439C-CF04-55A888810769"/>
+<colUsage columnID="838A834E-DE2B-CC77-1D91-18CF928AD94B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

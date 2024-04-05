@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7FDCA50D-9EA5-D2AA-214A-680726082647" name="reserva">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:10:27 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="96E8A096-7AB1-B27B-DB1F-0016DBEC862E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idReserva" id="686B4387-6134-8CFB-55F6-794582950447">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:10:36 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="96E8A096-7AB1-B27B-DB1F-0016DBEC862E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<ownDataTypeParameters>,32,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaReserva" id="0C115577-4219-3199-AA11-1C53F96B0C6A">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:10:49 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="96E8A096-7AB1-B27B-DB1F-0016DBEC862E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaReserva" id="642530EF-F864-D996-4A48-C457CD495035">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:11:45 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="96E8A096-7AB1-B27B-DB1F-0016DBEC862E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estadoReserva" id="DC764EA0-BFEE-C1DE-B3D4-B76DABC49C3B">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:11:58 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="96E8A096-7AB1-B27B-DB1F-0016DBEC862E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idSucursal" id="F88D3B72-0499-5DEF-3FD0-78C1F699FF1C">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:13:00 UTC</createdTime>
+<generatorID>87FF74DD-9DFD-AC92-8935-DC5B321735A4</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="96E8A096-7AB1-B27B-DB1F-0016DBEC862E" value="true"/>
+</engineerTo>
+<referedAttribute>EFB8DD40-442B-56EE-1211-F36731CBDD3E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPagos" id="DEE1595A-4D7C-C8F3-120F-2D47FF9E6FB2">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:25:58 UTC</createdTime>
+<generatorID>A3C9F389-FD1E-9694-2082-B39D6F66C76B</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="96E8A096-7AB1-B27B-DB1F-0016DBEC862E" value="true"/>
+</engineerTo>
+<referedAttribute>F0B64272-CB61-886F-2312-233EAD6D8687</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idTipoPago" id="10712046-6DC6-8EE5-32AA-410304FD400B">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:27:14 UTC</createdTime>
+<generatorID>A3C9F389-FD1E-9694-2082-B39D6F66C76B</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="96E8A096-7AB1-B27B-DB1F-0016DBEC862E" value="true"/>
+</engineerTo>
+<referedAttribute>0677DE0D-0DF8-CAA5-4851-E5864F62DCDE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="105CD884-444C-2E98-B66E-A381351BB076" name="reserva PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:25:51 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="96E8A096-7AB1-B27B-DB1F-0016DBEC862E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>686B4387-6134-8CFB-55F6-794582950447</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

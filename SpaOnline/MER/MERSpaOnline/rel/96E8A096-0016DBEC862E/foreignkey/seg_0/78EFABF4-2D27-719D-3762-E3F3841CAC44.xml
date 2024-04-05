@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="78EFABF4-2D27-719D-3762-E3F3841CAC44" containerWithKeyObject="A478BCBB-5AA0-7FA4-C0C2-EA69630EE187" localFKIndex="E9703C24-2CD6-FEF1-E076-29CF2B4078BC" name="sucursales_horariosLaboral_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>F7A2CDEF-F06F-C67D-816C-69F77F3957A5</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<referredTableLongName>horariosLaboral</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7F4B2150-699A-6F09-7B92-C5ED77098486</referredTableID>
+<keyObject>DC89205D-0A19-47BF-F90B-BC8FB0767095</keyObject>
+<referredKeyID>DC89205D-0A19-47BF-F90B-BC8FB0767095</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idHorario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

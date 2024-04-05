@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="53D78C0A-A071-C644-72B1-EDE28ACC62C8" containerWithKeyObject="D4A93AA7-3805-A629-AEFA-50B0B4F6ACD9" localFKIndex="270C3924-F78E-721D-957E-95F3EC173A0A" name="SpaOnline_administrador_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>DC6444C9-A72D-E188-AF4B-16B389B7E3B4</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<referredTableLongName>administrador</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D3F597DA-983C-C609-3951-4F98CE766984</referredTableID>
+<keyObject>A5589823-6594-B60D-128A-D9ADB9BB796C</keyObject>
+<referredKeyID>A5589823-6594-B60D-128A-D9ADB9BB796C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idAdministrador</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

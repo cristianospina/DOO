@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0E652CDE-A55E-8BF9-96BE-A712A72D5330" containerWithKeyObject="1093BC5B-0D79-2C5F-4BEE-B23B9D3A3B47" localFKIndex="316A51DC-A8AB-0F71-CF1B-88BA7B47A218" name="reserva_consentimiento_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>F3C85B02-0A3F-15E7-141E-B5663D8502EA</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<referredTableLongName>consentimiento</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3DE17FD9-E913-C9D7-365A-3B7251D54A28</referredTableID>
+<keyObject>85F8F063-DAF5-43BD-B703-1C3B9D1B455D</keyObject>
+<referredKeyID>85F8F063-DAF5-43BD-B703-1C3B9D1B455D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>consentimiento_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

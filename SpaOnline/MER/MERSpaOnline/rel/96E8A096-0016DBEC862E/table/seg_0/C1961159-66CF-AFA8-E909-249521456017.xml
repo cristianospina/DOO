@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1961159-66CF-AFA8-E909-249521456017" name="servicioNotificacion">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<ordsAlias>relation_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="servicio_idServicio" id="97A1AF57-8438-3FDE-DF57-4CC18DA3B924">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD7BEF21-CC54-F3F9-A44F-8798D68C06D8" referredColumn="31C35374-405D-2EE6-08C9-42E21D3EB045"/>
+</associations>
+</Column>
+<Column name="notificacion_idNotificacion" id="9AE9EA66-2B36-8EED-54DF-B7F1BD50F5B3">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A13CE16-FF90-3D64-F723-37C52BE62578" referredColumn="20AA458E-31BF-29DC-9513-1F900944BB89"/>
+</associations>
+</Column>
+<Column name="notificacion_tipoNotificacion_idTipoNotificacion" id="C7778DD7-5F8B-3917-DDF9-F601724EBDA1">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A13CE16-FF90-3D64-F723-37C52BE62578" referredColumn="E970F768-7343-656E-5E31-9A4940492530"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="310189F7-9F2C-798E-5E12-A61025B75CFC" name="Relation_30_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97A1AF57-8438-3FDE-DF57-4CC18DA3B924"/>
+<colUsage columnID="9AE9EA66-2B36-8EED-54DF-B7F1BD50F5B3"/>
+<colUsage columnID="C7778DD7-5F8B-3917-DDF9-F601724EBDA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F189188E-A8A3-D3DC-F5CE-6ABFB127A2EA" name="Relation_30_servicio_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>B993C6FC-F4FA-E17F-D0D7-0F861FE95817</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97A1AF57-8438-3FDE-DF57-4CC18DA3B924"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59E5E7EE-BB62-3160-7E89-48FFB12084AA" name="Relation_30_notificacion_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>B993C6FC-F4FA-E17F-D0D7-0F861FE95817</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AE9EA66-2B36-8EED-54DF-B7F1BD50F5B3"/>
+<colUsage columnID="C7778DD7-5F8B-3917-DDF9-F601724EBDA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

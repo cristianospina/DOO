@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FD7BEF21-CC54-F3F9-A44F-8798D68C06D8" containerWithKeyObject="C1961159-66CF-AFA8-E909-249521456017" localFKIndex="F189188E-A8A3-D3DC-F5CE-6ABFB127A2EA" name="Relation_30_servicio_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>B993C6FC-F4FA-E17F-D0D7-0F861FE95817</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<referredTableLongName>servicio</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6EE5A2AD-E376-6E57-ACA2-D665724EFDD8</referredTableID>
+<keyObject>53100582-15DE-03F9-02E1-C3D6740D2EE5</keyObject>
+<referredKeyID>53100582-15DE-03F9-02E1-C3D6740D2EE5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idServicio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

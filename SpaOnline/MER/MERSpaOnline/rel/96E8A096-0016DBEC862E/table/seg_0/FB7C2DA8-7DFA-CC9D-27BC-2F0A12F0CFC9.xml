@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB7C2DA8-7DFA-CC9D-27BC-2F0A12F0CFC9" name="pago">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>0B76DBEC-645E-013F-2325-136A7ADB9247</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPagos" id="CAF23E7A-F263-8394-41FA-07888B35D006">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>F0B64272-CB61-886F-2312-233EAD6D8687</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<ownDataTypeParameters>,32,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="C22D946E-FBC2-852F-CF3A-675AE2AB12D3">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>C8BF1FEA-1693-A89A-EF3D-0DB766AA5DB7</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoPago_idTipoPago" id="A586100B-7D9B-DBBD-ACF2-9A877248768D">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>0677DE0D-0DF8-CAA5-4851-E5864F62DCDE</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="958DC6FA-1651-D40B-8EB1-6AD5C3D4D368" referredColumn="08E82519-0431-3216-38D5-BBD0DDE14596"/>
+</associations>
+</Column>
+<Column name="notificacion_idNotificacion" id="AA69B176-9785-278A-D0D9-2DF33C472CE4">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>36771993-EE13-D299-4094-AA92DC4555A2</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FFEE615-6299-08EB-E42F-7262337BBA11" referredColumn="20AA458E-31BF-29DC-9513-1F900944BB89"/>
+</associations>
+</Column>
+<Column name="notificacion_tipoNotificacion_idTipoNotificacion" id="A66C2A85-0235-E0A5-40DB-D1EDDB20278F">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>C75D74B7-1596-7E8A-FE0D-723F91C4131A</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FFEE615-6299-08EB-E42F-7262337BBA11" referredColumn="E970F768-7343-656E-5E31-9A4940492530"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="409BB997-ACE2-7AF7-DE49-6B7C28E73CFE" name="pago_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>18C7E682-3FAE-1E64-57ED-563A605630CB</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAF23E7A-F263-8394-41FA-07888B35D006"/>
+<colUsage columnID="A586100B-7D9B-DBBD-ACF2-9A877248768D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98D5DF4A-AF22-17BC-3357-E5D48412EFCE" name="pago__IDX">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4C026A46-C7A3-0A16-1532-00BDCAF5DFBA</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="AA69B176-9785-278A-D0D9-2DF33C472CE4"/>
+<colUsage columnID="A66C2A85-0235-E0A5-40DB-D1EDDB20278F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F82A1064-C610-AA6E-5D7B-8FF1DBEA63C8" name="pago_tipoPago_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>6FD85492-EEAF-384B-FB5C-B8D249364B01</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A586100B-7D9B-DBBD-ACF2-9A877248768D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="644059F5-C711-ACFD-8070-B055F7966D5C" name="pago_notificacion_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>4C026A46-C7A3-0A16-1532-00BDCAF5DFBA</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA69B176-9785-278A-D0D9-2DF33C472CE4"/>
+<colUsage columnID="A66C2A85-0235-E0A5-40DB-D1EDDB20278F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

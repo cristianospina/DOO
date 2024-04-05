@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AB3BBB4D-5913-09DD-5385-F23BE639A2F6" name="trabajador">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:03:36 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="96E8A096-7AB1-B27B-DB1F-0016DBEC862E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idTrabajador" id="960B84C9-B170-6F61-C2AC-6D8123FC41D5">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:03:47 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="96E8A096-7AB1-B27B-DB1F-0016DBEC862E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<ownDataTypeParameters>,32,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroIdentificacionTrabajador" id="2B450A4C-40ED-F547-CAA8-9055CD42F784">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:04:44 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="96E8A096-7AB1-B27B-DB1F-0016DBEC862E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombreTrabajador" id="C892FE36-76EE-E58E-91DA-DA9CE3ACE30D">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:04:27 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="96E8A096-7AB1-B27B-DB1F-0016DBEC862E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombreUsuario" id="86B97C79-FC28-2C2E-0285-4F2973637A89">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:03:58 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="96E8A096-7AB1-B27B-DB1F-0016DBEC862E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdSpaOnline" id="9FF3C9AB-7C0C-5AB9-840C-10092CEC5D0A">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:05:45 UTC</createdTime>
+<generatorID>5D79134E-10F5-0928-2246-AE448063B8D4</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="96E8A096-7AB1-B27B-DB1F-0016DBEC862E" value="true"/>
+</engineerTo>
+<referedAttribute>7064500C-0734-6C13-AA51-EA85FBCA16D8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idTipoIdentificador" id="46E90F94-B2A2-0FA8-94BE-A7B038C0287C">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:05:45 UTC</createdTime>
+<generatorID>5D79134E-10F5-0928-2246-AE448063B8D4</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="96E8A096-7AB1-B27B-DB1F-0016DBEC862E" value="true"/>
+</engineerTo>
+<referedAttribute>C34FCD87-C978-0A0C-4C6E-747AF67987E9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2855DBB8-86AD-4B1C-3FAB-737C692D3673" name="trabajador PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:03:57 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="96E8A096-7AB1-B27B-DB1F-0016DBEC862E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>960B84C9-B170-6F61-C2AC-6D8123FC41D5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

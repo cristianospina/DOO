@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2FFEE615-6299-08EB-E42F-7262337BBA11" containerWithKeyObject="FB7C2DA8-7DFA-CC9D-27BC-2F0A12F0CFC9" localFKIndex="644059F5-C711-ACFD-8070-B055F7966D5C" name="pago_notificacion_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:31:34 UTC</createdTime>
+<generatorID>4C026A46-C7A3-0A16-1532-00BDCAF5DFBA</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<referredTableLongName>notificacion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>62574A50-329E-A05E-26B3-3943E692FC08</referredTableID>
+<keyObject>EF5F2110-D794-BF9A-DE60-44AEB735BA41</keyObject>
+<referredKeyID>EF5F2110-D794-BF9A-DE60-44AEB735BA41</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idNotificacion,tipoNotificacion_idTipoNotificacion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

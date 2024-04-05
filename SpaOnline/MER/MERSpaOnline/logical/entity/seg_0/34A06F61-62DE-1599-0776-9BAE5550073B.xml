@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="34A06F61-62DE-1599-0776-9BAE5550073B" name="sucursales">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 19:52:30 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="96E8A096-7AB1-B27B-DB1F-0016DBEC862E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idSucursal" id="EFB8DD40-442B-56EE-1211-F36731CBDD3E">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 19:52:36 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="96E8A096-7AB1-B27B-DB1F-0016DBEC862E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<ownDataTypeParameters>,32,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombreSucursal" id="B638024B-F307-30B7-77B4-E8BF464B483B">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 19:52:47 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="96E8A096-7AB1-B27B-DB1F-0016DBEC862E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCiudad" id="C30B2B05-9AD9-B024-5481-C3E4263FCAA2">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 19:57:00 UTC</createdTime>
+<generatorID>7BACE967-CFA4-46C5-925F-3E04935EC9A1</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="96E8A096-7AB1-B27B-DB1F-0016DBEC862E" value="true"/>
+</engineerTo>
+<referedAttribute>69A2EABB-FB08-9D71-E89A-2F8E15BC01DC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idHorario" id="D3C5DA0D-5F0C-D652-09F4-94D5A91874FF">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 19:59:06 UTC</createdTime>
+<generatorID>F7A2CDEF-F06F-C67D-816C-69F77F3957A5</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="96E8A096-7AB1-B27B-DB1F-0016DBEC862E" value="true"/>
+</engineerTo>
+<referedAttribute>EB73D907-3CE0-1F84-A2D0-3B63ECC281A3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idInventario" id="AB94F9F6-872B-DBA4-B70E-6FC834B4E246">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 19:59:27 UTC</createdTime>
+<generatorID>2C721ECC-584B-592F-2379-38562879F7AF</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="96E8A096-7AB1-B27B-DB1F-0016DBEC862E" value="true"/>
+</engineerTo>
+<referedAttribute>6318D360-27B7-9223-1C7B-2CF06E71D25B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdSpaOnline" id="6EA2F098-3E98-B6F8-FCE6-9712501D9D22">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:01:54 UTC</createdTime>
+<generatorID>436FFBFE-C009-1D40-C38D-071088D6F8E7</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="96E8A096-7AB1-B27B-DB1F-0016DBEC862E" value="true"/>
+</engineerTo>
+<referedAttribute>7064500C-0734-6C13-AA51-EA85FBCA16D8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idTipoIdentificador" id="B58A6D9B-D5C2-D0B0-5411-3592F76CEE03">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 20:03:28 UTC</createdTime>
+<generatorID>436FFBFE-C009-1D40-C38D-071088D6F8E7</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="96E8A096-7AB1-B27B-DB1F-0016DBEC862E" value="true"/>
+</engineerTo>
+<referedAttribute>C34FCD87-C978-0A0C-4C6E-747AF67987E9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="73A7B0A3-6BDC-8DA6-566F-82D7A0FD9EAD" name="sucursales PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-04-05 19:52:46 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="96E8A096-7AB1-B27B-DB1F-0016DBEC862E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EFB8DD40-442B-56EE-1211-F36731CBDD3E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
