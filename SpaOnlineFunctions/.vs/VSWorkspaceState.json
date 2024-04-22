@@ -1,14 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\SpaOnlineFunctions",
-    "\\SpaOnlineFunctions\\SpaOnlineFunctions",
-    "\\SpaOnlineFunctions\\SpaOnlineFunctions\\co.edu.uco.spaonline",
-    "\\SpaOnlineFunctions\\SpaOnlineFunctions\\co.edu.uco.spaonline\\data",
-    "\\SpaOnlineFunctions\\SpaOnlineFunctions\\co.edu.uco.spaonline\\data\\dao",
-    "\\SpaOnlineFunctions\\SpaOnlineFunctions\\co.edu.uco.spaonline\\data\\dao\\base",
-    "\\SpaOnlineFunctions\\SpaOnlineFunctions\\co.edu.uco.spaonline\\data\\dao\\concrete.mysql"
+    "\\SpaOnline",
+    "\\SpaOnline\\SpaOnline",
+    "\\SpaOnline\\SpaOnline\\co.edu.uco.spaonline",
+    "\\SpaOnline\\SpaOnline\\co.edu.uco.spaonline\\crosscutting",
+    "\\SpaOnline\\SpaOnline\\co.edu.uco.spaonline\\crosscutting\\excepciones",
+    "\\SpaOnline\\SpaOnline\\co.edu.uco.spaonline\\crosscutting\\messages",
+    "\\SpaOnline\\SpaOnline\\co.edu.uco.spaonline\\crosscutting\\messages\\enumerator",
+    "\\SpaOnline\\SpaOnline\\co.edu.uco.spaonline\\crosscutting\\util"
   ],
-  "SelectedNode": "\\SpaOnlineFunctions\\SpaOnlineFunctions\\co.edu.uco.spaonline\\data\\dao\\concrete.mysql\\TipoIdentificacionMYSQLDAO.cs",
+  "SelectedNode": "\\SpaOnline\\SpaOnline\\co.edu.uco.spaonline\\crosscutting\\messages\\Mensaje.cs",
   "PreviewInSolutionExplorer": false
 }
