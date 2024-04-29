@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-04-26T18:01:19.130Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="HQndIrjDQz2g4urfgUqi" version="24.2.5" type="device" pages="16">
+<mxfile host="Electron" modified="2024-04-29T02:07:49.630Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="EMzzx69_5xcE_tp-YH17" version="23.0.2" type="device" pages="16">
   <diagram id="9Fxw6sm0tvmWndp8JFvR" name="1. BigPicture">
     <mxGraphModel dx="880" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Wb_AFI7lF9kfnUjehEVV" name="2. ModeloContextoDeLimitado">
-    <mxGraphModel dx="2422" dy="2184" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1776" dy="1868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1221,7 +1221,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PjjiBQBByGylY1RHHp6c" name="4.5 Servicios-ModeloDominioAcotado">
-    <mxGraphModel dx="1937" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2159" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1229,7 +1229,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IA66ZIsMtE5Hb1tEm9_v-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-30" y="40" width="760" height="370" as="geometry" />
+          <mxGeometry x="-30" y="40" width="780" height="370" as="geometry" />
         </mxCell>
         <mxCell id="2n4Va-vdUPTKDrdTodj4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="x6Kev6DCtSwO5cj2pu-R-2" target="2n4Va-vdUPTKDrdTodj4-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1287,7 +1287,7 @@
         <mxCell id="2n4Va-vdUPTKDrdTodj4-1" value="&amp;lt;&amp;lt;needed of&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-140" y="200" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2n4Va-vdUPTKDrdTodj4-2" value="Evento" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="2n4Va-vdUPTKDrdTodj4-2" value="Eventos" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="610" y="205" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2n4Va-vdUPTKDrdTodj4-4" value="Tiene -&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=none;" parent="1" vertex="1">
@@ -1393,7 +1393,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rEOHysiXwwPGr6YSqEsX" name="4.7 Reservas- ModeloDominioAcotado">
-    <mxGraphModel dx="2394" dy="1825" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2603" dy="1868" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1582,7 +1582,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LmDs8YIagqLJW_qHY7uN" name="4.8 Facturacion- ModeloDominioAcotado">
-    <mxGraphModel dx="2159" dy="558" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2159" dy="524" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1677,7 +1677,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HLzjZegPEWtQ-02gGn92" name="4.10 Clientes-ModeloDomonioAcotado">
-    <mxGraphModel dx="1707" dy="1693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2159" dy="1693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1743,7 +1743,7 @@
         <mxCell id="BSFSPuRn-aG-PkETtUCg-1" value="Notificaciones" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="-70" y="-550" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BSFSPuRn-aG-PkETtUCg-3" value="Notificaciones" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF88;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="BSFSPuRn-aG-PkETtUCg-3" value="Notificacion" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF88;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="250" y="-400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BSFSPuRn-aG-PkETtUCg-5" value="&amp;lt;-Tiene" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -1776,7 +1776,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Tzqavun8EJMFop4G4we7" name="4.12 CentroEventos-ModeloDominio">
-    <mxGraphModel dx="1707" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2159" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1793,7 +1793,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IReG1y8nlctsLxMwKq8-" name="4.13 Pagos- ModeloDominio">
-    <mxGraphModel dx="1707" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2159" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
