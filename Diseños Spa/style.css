@@ -1,0 +1,106 @@
+User
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #ff6f61;
+  padding: 10px 20px;
+  text-align: center;
+  border-bottom: 5px solid #e24e42;
+  max-height: 100px; 
+  overflow: hidden; 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+
+h1 {
+  font-size: 3em;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  padding: 150px 50px;
+  background: url('spa.jpg') center center/cover no-repeat; 
+  color: #333;
+}
+
+.banner-text {
+  position: relative;
+  z-index: 1;
+}
+
+h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #333;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e24e42;
+  color: #fff;
+}
+
+.servicios {
+  padding: 0px 20px;
+  background-color: #f9f9f9;
+}
+
+.servicio {
+  background-color: #fff;
+  padding: 40px 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.servicio:hover {
+  transform: scale(1.05);
+}
+
+.servicio img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: #e24e42;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
