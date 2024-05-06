@@ -1,147 +1,164 @@
-User
+/* Reset de CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: "Nunito", sans-serif;
-  background-color: #f4f4f4;
+  font-family: 'Nunito', sans-serif;
   color: #333;
-  line-height: 1.6;
 }
 
+/* Encabezado */
 header {
-  background-color: #D1CFCE;
-  padding: 10px 2%;
-  text-align: center;
-  max-height: 100px; 
-  overflow: hidden; 
-  display: flex;
-  justify-content: space-between; 
-  align-items: center;
-}
-
-h1 {
-  font-size: 3em;
-  color: #333;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-bottom: 10px;
-}
-
-.banner {
-  position: relative;
-  text-align: center;
-  padding: 20px 50px;
-  color: #333;
-  margin-bottom: 100px;
-}
-
-.banner-text {
-  position: relative;
-  z-index: 1;
-}
-
-h2 {
-  font-size: 3em;
-  margin-bottom: 20px;
-}
-
-p {
-  font-size: 1.2em;
-  margin-bottom: 30px;
-  color: #333;
-}
-
-.btn {
-  display: inline-block;
-  background-color: #D1CFCE;
-  color: #333;
-  padding: 15px 30px;
-  text-decoration: none;
-  border-radius: 10px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-  background-color: #1f1d1d;
-  color: #fff;
-}
-
-.servicios {
-  padding: 0px 20px;
-  background-color: #f9f9f9;
-}
-
-.servicio {
-  background-color: #fff;
-  padding: 40px 20px;
-  border-radius: 20px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.servicio:hover {
-  transform: scale(1.05);
-}
-
-.servicio img {
-  max-width: 100%;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-
-h3 {
-  font-size: 2em;
-  color: #333;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
-
-footer {
-  background-color: #D1CFCE;
-  color: #fff;
-  text-align: center;
+  background-color: #cfcece;
   padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-nav {
-  display: flex;
-  justify-content: flex-end; 
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
 }
 
 nav ul {
   list-style: none;
-  margin: 0; 
-  padding: 0; 
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 nav ul li {
-  display: inline-block;
-  margin-left: 40px;
-}
-
-nav ul li:first-child {
-  margin-left: 0;
+  margin-right: 20px;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: #000000;
-  font-size: 90%;
-  letter-spacing: 1px;
-  word-spacing: 3px;
-  transition: border-botton 0.2s;
+  color: #333;
+  font-weight: bold;
 }
-img {
-  width: 15%; 
-  height: auto;
-  color: #ffffff;
-  padding: 0;
-  border-radius: 25%;
-  float: left;
-}   
 
-.Texto-Dominio{
-  margin-top: none;
-  margin-bottom: 13%;
+/* Banner */
+.banner {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.banner-text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner-text h2 {
+  margin-right: 20px;
+}
+
+.btn {
+  background-color: #393a3b;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.servicios {
+  padding: 20px;
+}
+
+.servicio {
+  margin-bottom: 20px;
+}
+
+.servicio h2 {
+  margin-bottom: 10px;
+}
+
+.tablaServicio {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tablaServicio th,
+.tablaServicio td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Formularios */
+.Crear,
+.Modificar,
+.Eliminar {
+  padding: 20px;
+}
+
+.Crear h2,
+.Modificar h2,
+.Eliminar h2 {
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #393a3b;
+  color: #fff;
+  padding:
+  10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Pie de página */
+footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+.contenedor-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contenedor-banner h2 {
+  margin-bottom: 10%;
+}
+
+.contenedor-botones {
+
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+}
+
+.contenedor-botones a {
+  margin-bottom: 10px 20px;
 }
