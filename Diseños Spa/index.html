@@ -4,25 +4,91 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spa Online</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header>
-    <h1>Spa Online</h1>
+    <div class="logo">
+      <img src="LogoSpa.jpg" alt="Logo del Spa">
+    </div>
+    <nav>
+      <ul >
+        <li><a href="#servicios">Ir a Oferta</a></li>
+        <li><a href="login.html">Ir a TipoServicio</a></li>
+      </ul>
+  </nav>
   </header>
 
   <main>
     <section class="banner">
       <div class="banner-text">
-        <h2>Bienvenido a Tu oasis de bienestar</h2>
-        <p>[Descripción]</p>
-        <a href="#servicios" class="btn">Descubre nuestros servicios</a>
+        <h2 class = "Texto-Dominio">Servicios</h2>
+        <a href="#servicios" class="btn">Mostrar Servicios</a>
+        <a href="#Crear" class="btn">Crear Servicio</a>
+        <a href="#Modificar" class="btn">Modificar Servicio</a>
+        <a href="#Eliminar" class="btn">Eliminar Servicio</a>
       </div>
     </section>
 
     <section class="servicios" id="servicios">
-      <h2>Nuestros servicios</h2>
+      <h2>Mostrar Servicios</h2>
+        <div id="MostrarServicio"></div>
+    </section>
+
+    <section class="Crear" id="Crear">
+      <h2>Crear Servicio</h2>
+      <div class="servicios-grid">
+        <div class="Crear">
+          <nav>
+          <ul>
+            <li>
+              <h4>Nombre de Servicio</h4>
+            </li>
+            <li>
+               <label for="nombre">Ingresar Valor:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </li>
+            
+          </ul>
+          <ul>
+            <li>
+              <h4>Tipo de Servicio</h4>
+            </li>
+            <li>
+               <label for="nombre">Selecciona</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+    </section>
+
+    <section class="Modificar" id="Modificar">
+      <h2>Modificar Servicio</h2>
+      <div class="servicios-grid">
+        <div class="servicio">
+          <h3>[Nombre del servicio 1]</h3>
+          <p>[Descripción]</p>
+        </div>
+        <div class="servicio">
+          <h3>[Nombre del servicio 2]</h3>
+          <p>[Descripción]</p>
+        </div>
+        <div class="servicio">
+          <h3>[Nombre del servicio 3]</h3>
+          <p>[Descripción]</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="Eliminar" id="Eliminar">
+      <h2>Eliminar Servicio</h2>
       <div class="servicios-grid">
         <div class="servicio">
           <h3>[Nombre del servicio 1]</h3>
@@ -47,3 +113,18 @@
   <script src="script.js"></script>
 </body>
 </html>
+
+<form id="registro-form" action="#" method="post">
+            
+ 
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+ 
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+ 
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+ 
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required>

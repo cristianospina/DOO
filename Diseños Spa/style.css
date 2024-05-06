@@ -1,21 +1,20 @@
 User
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Nunito", sans-serif;
   background-color: #f4f4f4;
   color: #333;
   line-height: 1.6;
 }
 
 header {
-  background-color: #ff6f61;
-  padding: 10px 20px;
+  background-color: #D1CFCE;
+  padding: 10px 2%;
   text-align: center;
-  border-bottom: 5px solid #e24e42;
   max-height: 100px; 
   overflow: hidden; 
   display: flex;
-  align-items: center; 
-  justify-content: center; 
+  justify-content: space-between; 
+  align-items: center;
 }
 
 h1 {
@@ -29,9 +28,9 @@ h1 {
 .banner {
   position: relative;
   text-align: center;
-  padding: 150px 50px;
-  background: url('spa.jpg') center center/cover no-repeat; 
+  padding: 20px 50px;
   color: #333;
+  margin-bottom: 100px;
 }
 
 .banner-text {
@@ -52,11 +51,11 @@ p {
 
 .btn {
   display: inline-block;
-  background-color: #fff;
+  background-color: #D1CFCE;
   color: #333;
   padding: 15px 30px;
   text-decoration: none;
-  border-radius: 25px;
+  border-radius: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: bold;
@@ -64,7 +63,7 @@ p {
 }
 
 .btn:hover {
-  background-color: #e24e42;
+  background-color: #1f1d1d;
   color: #fff;
 }
 
@@ -99,8 +98,50 @@ h3 {
 }
 
 footer {
-  background-color: #e24e42;
+  background-color: #D1CFCE;
   color: #fff;
   text-align: center;
   padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end; 
+}
+
+nav ul {
+  list-style: none;
+  margin: 0; 
+  padding: 0; 
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 90%;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  transition: border-botton 0.2s;
+}
+img {
+  width: 15%; 
+  height: auto;
+  color: #ffffff;
+  padding: 0;
+  border-radius: 25%;
+  float: left;
+}   
+
+.Texto-Dominio{
+  margin-top: none;
+  margin-bottom: 13%;
 }
