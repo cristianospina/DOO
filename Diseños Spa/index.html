@@ -58,7 +58,7 @@
         <textarea id="descripcion-servicio" name="descripcion-servicio" required></textarea>
 
         <label for="descripcion-servicio">Valor Servicio:</label>
-        <textarea id="descripcion-servicio" name="descripcion-servicio" required></textarea>
+        <input type="text" id="valor-servicio" name="valor-servicio" required>
 
         <select name="nombre-servicio" id="nombre_select">
           <option value="valor1">TipoServicio1</option>
@@ -73,30 +73,33 @@
     <section class="Modificar" id = "Modificar">
       <h2>Modificar servicio</h2>
       <form action="#">
-        <label for="nombre-servicio-modificar">Nombre servicio que desea modificar:</label>
-        <input type="text" id="nombre-servicio-modificar" name="nombre-servicio-modificar" required>
+        <label for="nombreAnterior">Nombre servicio que desea modificar:</label>
+        <input type="text" id="nombreAnterior" name="nombreAnterior" required>
 
-        <label for="nuevo-nombre">Nuevo nombre:</label>
-        <input type="text" id="nuevo-nombre" name="nuevo-nombre" required>
+        <label for="nombre">Nuevo nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
 
-        <label for="nueva-descripcion">Nueva descripción:</label>
-        <textarea id="nueva-descripcion" name="nueva-descripcion" required></textarea>
+        <label for="descripcion">Nueva descripción:</label>
+        <textarea id="descripcion" name="descripcion" required></textarea>
 
-        <select name="nombre-servicio" id="nombre_select">
+        <label for="valorservicio">Nuevo Valor:</label>
+        <textarea id="valorservicio" name = "valorservicio" required></textarea>
+        
+        <select name="tiposervicio" id="tiposervicio">
           <option value="valor1">TipoServicio1</option>
           <option value="valor2">TipoServicio2</option>
           <option value="valor3">TipoServicio3</option>
         </select>
-
-        <button type="submit">Modificar oferta</button>
+        
+        <button type="submit">Modificar servicio</button>
       </form>
     </section>
 
     <section class="Eliminar" id = "Eliminar">
       <h2>Eliminar servicio</h2>
       <form action="#">
-        <label for="nombre-servicio-eliminar">Nombre de la servicio a eliminar:</label>
-        <input type="text" id="nombre-oferta-eliminar" name="nombre-servicio-eliminar" required>
+        <label for="nombreEliminar">Nombre de la servicio a eliminar:</label>
+        <input type="text" id="nombreEliminar" name="nombreEliminar" required>
 
         <button type="submit">Eliminar Servicio</button>
       </form>
