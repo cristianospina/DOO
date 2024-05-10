@@ -16,95 +16,23 @@
     <div class="logo">
       <img src="LogoSpa.jpg" alt="Logo del Spa">
     </div>
-    <nav>
-      <ul >
-        <li><a href="#servicios">Ir a Oferta</a></li>
-        <li><a href="login.html">Ir a TipoServicio</a></li>
-      </ul>
-  </nav>
   </header>
 
   <main>
     <section class="banner">
       <div class="contenedor-banner">
-        <h2 class="Texto-Dominio">Servicios</h2>
+        <h2 class="Texto-Dominio">Menu de Servicios</h2>
         <div class="contenedor-botones">
-          <a href="#servicios" class="btn">Mostrar Servicios</a>
-          <a href="#Crear" class="btn">Crear Servicio</a>
-          <a href="#Modificar" class="btn">Modificar Servicio</a>
-          <a href="#Eliminar" class="btn">Eliminar Servicio</a>
+          <a href="mostrar.html" class="btn">Mostrar Servicios</a>
+          <a href="crear.html" class="btn">Crear Servicio</a>
+          <a href="modificar.html" class="btn">Modificar Servicio</a>
+          <a href="eliminar.html" class="btn">Eliminar Servicio</a>
         </div>
       </div>
     </section>
-
-    <section class="servicios" id="servicios">
-      <section class="servicio">
-        <h2>Mostrar servicio</h2>
-        <table class="tablaServicio">
-          <tbody id="tablaBody"></tbody>
-          <tbody id="tablaBody2"></tbody>
-        <div id="servicios1"></div>
-        </table>
-      </section>
-    </section>
-
-    <section class="Crear" id = "Crear" >
-      <h2>Crear Servicio</h2>
-      <form action="#">
-        <label for="nombre-servicio">Nombre Servicio:</label>
-        <input type="text" id="nombre-servicio" name="nombre-servicio" required>
-
-        <label for="descripcion-servicio">Descripción servicio:</label>
-        <textarea id="descripcion-servicio" name="descripcion-servicio" required></textarea>
-
-        <label for="descripcion-servicio">Valor Servicio:</label>
-        <input type="text" id="valor-servicio" name="valor-servicio" required>
-
-        <select name="nombre-servicio" id="nombre_select">
-          <option value="valor1">TipoServicio1</option>
-          <option value="valor2">TipoServicio2</option>
-          <option value="valor3">TipoServicio3</option>
-        </select>
-
-        <button type="submit">Crear servicio</button>
-      </form>
-    </section>
-
-    <section class="Modificar" id = "Modificar">
-      <h2>Modificar servicio</h2>
-      <form action="#">
-        <label for="nombreAnterior">Nombre servicio que desea modificar:</label>
-        <input type="text" id="nombreAnterior" name="nombreAnterior" required>
-
-        <label for="nombre">Nuevo nombre:</label>
-        <input type="text" id="nombre" name="nombre" required>
-
-        <label for="descripcion">Nueva descripción:</label>
-        <textarea id="descripcion" name="descripcion" required></textarea>
-
-        <label for="valorservicio">Nuevo Valor:</label>
-        <textarea id="valorservicio" name = "valorservicio" required></textarea>
-        
-        <select name="tiposervicio" id="tiposervicio">
-          <option value="valor1">TipoServicio1</option>
-          <option value="valor2">TipoServicio2</option>
-          <option value="valor3">TipoServicio3</option>
-        </select>
-        
-        <button type="submit">Modificar servicio</button>
-      </form>
-    </section>
-
-    <section class="Eliminar" id = "Eliminar">
-      <h2>Eliminar servicio</h2>
-      <form action="#">
-        <label for="nombreEliminar">Nombre de la servicio a eliminar:</label>
-        <input type="text" id="nombreEliminar" name="nombreEliminar" required>
-
-        <button type="submit">Eliminar Servicio</button>
-      </form>
-    </section>
-    
+    <p class= "parragrafo"> Bienvenido al menu para administrar los servicios del Spa Online, en los botones puedes navegar entre las opciones.</p>
+    <h4>Esperamos que tenga una buena experiencia</h4>
+ 
 
   <footer>
     <p>&copy; Spa Online 2024</p>

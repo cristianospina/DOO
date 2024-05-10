@@ -138,7 +138,8 @@ form button {
 /* Pie de página */
 footer {
   background-color: #f0f0f0;
-  padding: 20px;
+  margin-top: 200px;
+  padding: 10px;
   text-align: center;
 }
 .contenedor-banner {
@@ -161,4 +162,14 @@ footer {
 
 .contenedor-botones a {
   margin-bottom: 10px 20px;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.parragrafo{
+  text-align: center;
+  margin-top: 70px;
 }
