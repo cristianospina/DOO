@@ -1,0 +1,175 @@
+<mxfile host="Electron" modified="2024-05-14T01:40:34.063Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="xpYjVVqpLtwGhsR1EhMl" version="23.0.2" type="device">
+  <diagram name="Página-1" id="x9CmnGcBnZ_YHvCdk06k">
+    <mxGraphModel dx="1527" dy="328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I10mN_lkF9MRb2houSes-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I10mN_lkF9MRb2houSes-1" target="I10mN_lkF9MRb2houSes-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="170" y="190" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-2" value="Inicio Eliminar Servicio" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="122.5" y="140" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I10mN_lkF9MRb2houSes-5" target="I10mN_lkF9MRb2houSes-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-5" value="Validar que la información requerida sea valida a nivel de tipo de dato, longitud, obligatoriedad, formato y rango." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="280" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I10mN_lkF9MRb2houSes-6" target="I10mN_lkF9MRb2houSes-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I10mN_lkF9MRb2houSes-6" target="I10mN_lkF9MRb2houSes-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-6" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-10" value="[La información requerida no es valida]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="250" y="410" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="I10mN_lkF9MRb2houSes-11" target="I10mN_lkF9MRb2houSes-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1020" y="440" />
+            </Array>
+            <mxPoint x="1110" y="440" as="sourcePoint" />
+            <mxPoint x="1020" y="1710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-11" value="Mostrar un mensaje de error indicando que la información requerida no es valida" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="410" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I10mN_lkF9MRb2houSes-12" target="I10mN_lkF9MRb2houSes-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-12" value="Validar si el servicio que se quiere eliminar existe" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-14" value="[La información requerida es valida]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="510" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I10mN_lkF9MRb2houSes-15" target="I10mN_lkF9MRb2houSes-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I10mN_lkF9MRb2houSes-15" target="I10mN_lkF9MRb2houSes-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-15" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I10mN_lkF9MRb2houSes-17" target="I10mN_lkF9MRb2houSes-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="760" />
+            </Array>
+            <mxPoint x="950" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-17" value="Mostrar un mensaje de error indicando que el servicio que se desea eliminar no existe" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="730" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-19" value="[si el servicio no existe]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="257.5" y="730" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I10mN_lkF9MRb2houSes-20" target="I10mN_lkF9MRb2houSes-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-20" value="Validar que el servicio que se quiere modificar no este vinculado a ninguna factura" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="115" y="910" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-22" value="[si el servicio si existe]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="20" y="820" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.8;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="I10mN_lkF9MRb2houSes-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="1040" />
+            </Array>
+            <mxPoint x="670" y="1040" as="sourcePoint" />
+            <mxPoint x="911.5999999999999" y="1690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-23" value="Mostrar un mensaje de error indicando que el servicio que esta intentando eliminar esta vinculado a una factura" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="1060" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I10mN_lkF9MRb2houSes-24" target="I10mN_lkF9MRb2houSes-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I10mN_lkF9MRb2houSes-24" target="I10mN_lkF9MRb2houSes-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-24" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="1050" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I10mN_lkF9MRb2houSes-27" target="I10mN_lkF9MRb2houSes-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-27" value="Validar que el servicio que se quiere eliminar no este vinculado a ninguna Reserva" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="115" y="1260" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-28" value="[si el servicio esta vinculado a una Factura]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="220" y="1060" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-30" value="[si el servicio no esta vinculado a una Factura]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="1169" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I10mN_lkF9MRb2houSes-31" target="I10mN_lkF9MRb2houSes-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I10mN_lkF9MRb2houSes-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-31" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="1400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I10mN_lkF9MRb2houSes-33" target="I10mN_lkF9MRb2houSes-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="1440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-33" value="Mostrar un mensaje de error indicando que el servicio que esta intentando eliminar esta vinculado a una Reserva" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="1410" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-35" value="[si el servicio esta vinculado a una Reserva]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="242.5" y="1410" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-38" value="[si el servicio no esta vinculado a una Reserva]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="1530" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-47" value="Mostrar mensaje de exito indicando que el servicio se elimino exitosamente" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="1600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uY2GZrnFG4u4bRt9zj5L-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="I10mN_lkF9MRb2houSes-49" target="I10mN_lkF9MRb2houSes-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-49" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-50" y="1740" width="1200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-50" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="510" y="1870" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-52" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="530" y="1890" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I10mN_lkF9MRb2houSes-53" value="Fin de Modificar Servicio" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="475" y="1800" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uY2GZrnFG4u4bRt9zj5L-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="I10mN_lkF9MRb2houSes-47" target="I10mN_lkF9MRb2houSes-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
