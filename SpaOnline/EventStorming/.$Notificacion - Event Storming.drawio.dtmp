@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-04-05T18:46:27.926Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="00wynApzOXhfBjIg5KUS" version="22.1.2" type="device" pages="3">
+<mxfile host="Electron" modified="2024-05-23T19:52:20.256Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="wrrONId6t11ZvVtvHbON" version="23.0.2" type="device" pages="3">
   <diagram name="Flujo de eventos" id="zBhicTsyFizKEP22qASS">
-    <mxGraphModel dx="1600" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1120" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,13 +15,13 @@
         <mxCell id="tLENe-P63r3Lutoy_OWt-3" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 36px;&quot;&gt;1&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" parent="tLENe-P63r3Lutoy_OWt-1" vertex="1">
           <mxGeometry width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-YRcHRdBrxHJoPTUA-PH-16" value="Pago&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="tLENe-P63r3Lutoy_OWt-1">
+        <mxCell id="-YRcHRdBrxHJoPTUA-PH-16" value="Pago&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="tLENe-P63r3Lutoy_OWt-1" vertex="1">
           <mxGeometry x="-20" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-YRcHRdBrxHJoPTUA-PH-17" value="Servicio" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="tLENe-P63r3Lutoy_OWt-1">
+        <mxCell id="-YRcHRdBrxHJoPTUA-PH-17" value="Servicio" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="tLENe-P63r3Lutoy_OWt-1" vertex="1">
           <mxGeometry x="-20" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wVtukVOVH9aLwKAQZpMn-6" value="TipoNotificacion" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="tLENe-P63r3Lutoy_OWt-1">
+        <mxCell id="wVtukVOVH9aLwKAQZpMn-6" value="TipoNotificacion" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="tLENe-P63r3Lutoy_OWt-1" vertex="1">
           <mxGeometry x="-20" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tLENe-P63r3Lutoy_OWt-12" value="" style="group" parent="1" vertex="1" connectable="0">
@@ -42,7 +42,7 @@
             <mxPoint x="390" y="120" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-YRcHRdBrxHJoPTUA-PH-18" value="Notificacion" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="tLENe-P63r3Lutoy_OWt-12">
+        <mxCell id="-YRcHRdBrxHJoPTUA-PH-18" value="Notificacion" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="tLENe-P63r3Lutoy_OWt-12" vertex="1">
           <mxGeometry x="-20" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UK6VP99KoT8ICxMLlUBV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" edge="1">
@@ -65,14 +65,14 @@
             <mxPoint x="330" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wVtukVOVH9aLwKAQZpMn-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="wVtukVOVH9aLwKAQZpMn-6" target="-YRcHRdBrxHJoPTUA-PH-18">
+        <mxCell id="wVtukVOVH9aLwKAQZpMn-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="wVtukVOVH9aLwKAQZpMn-6" target="-YRcHRdBrxHJoPTUA-PH-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="LfHUw2b1Mqzj6z31MRwS" name="2. Notificacion -  Event Storming">
-    <mxGraphModel dx="2427" dy="1918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3316" dy="2333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -441,7 +441,7 @@
         <mxCell id="owwoEWK4C-uiHUiFICB5-78" value="Notificacion&lt;br&gt;&amp;nbsp;Eliminada" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#D6DCE4;" parent="1" vertex="1">
           <mxGeometry x="710" y="1260" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9D0lrz1YOx4REDhdXodr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="9D0lrz1YOx4REDhdXodr-1" target="owwoEWK4C-uiHUiFICB5-17">
+        <mxCell id="9D0lrz1YOx4REDhdXodr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="9D0lrz1YOx4REDhdXodr-1" target="owwoEWK4C-uiHUiFICB5-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="370" y="415" />
@@ -449,16 +449,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9D0lrz1YOx4REDhdXodr-1" value="Trabajador" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FCFCAA;" vertex="1" parent="1">
+        <mxCell id="9D0lrz1YOx4REDhdXodr-1" value="Trabajador" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FCFCAA;" parent="1" vertex="1">
           <mxGeometry x="220" y="375" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jPb9CW4TvKjPSKYhg58Q-3" value="Pol-Notificacion-003: No se debe Modificar ninguna notificacion de pago" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CC99FF;" vertex="1" parent="1">
+        <mxCell id="jPb9CW4TvKjPSKYhg58Q-3" value="Pol-Notificacion-003: No se debe Modificar ninguna notificacion de pago" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CC99FF;" parent="1" vertex="1">
           <mxGeometry x="1215" y="667.5" width="150" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="jPb9CW4TvKjPSKYhg58Q-4" value="Pol-Notificacion-008: No se debe Eliminar ninguna notificacion de pago" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CC99FF;" vertex="1" parent="1">
+        <mxCell id="jPb9CW4TvKjPSKYhg58Q-4" value="Pol-Notificacion-008: No se debe Eliminar ninguna notificacion de pago" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CC99FF;" parent="1" vertex="1">
           <mxGeometry x="1075" y="1330" width="150" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="Q_Uq_ZCpKRbDS-vk3Axl-1" value="Aprobacion Bancaria" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#92D050;" vertex="1" parent="1">
+        <mxCell id="Q_Uq_ZCpKRbDS-vk3Axl-1" value="Aprobacion Bancaria" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#92D050;" parent="1" vertex="1">
           <mxGeometry x="530" y="197.5" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
