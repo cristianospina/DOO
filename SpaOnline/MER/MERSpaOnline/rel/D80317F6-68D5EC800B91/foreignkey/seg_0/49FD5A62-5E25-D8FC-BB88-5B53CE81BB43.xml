@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="49FD5A62-5E25-D8FC-BB88-5B53CE81BB43" containerWithKeyObject="23852AF2-A526-35C1-676F-FDBA2321D36A" localFKIndex="A12E409F-7FBD-90F0-FDAE-9BA3C4E1E39B" name="notificacion_evento_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:25:55 UTC</createdTime>
+<generatorID>482D86EE-71FD-FACC-D857-15FBA9302032</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<referredTableLongName>evento</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2DDF2C8E-E3D4-CDCB-3DD6-7C8E2779BF29</referredTableID>
+<keyObject>5CCD7D7D-7029-5A5F-E819-B3EBB4D78C5A</keyObject>
+<referredKeyID>5CCD7D7D-7029-5A5F-E819-B3EBB4D78C5A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>evento_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

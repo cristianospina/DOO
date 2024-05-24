@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="oferta_evento" directorySegmentName="seg_0" id="C5712BCF-A42E-5CC7-9FF9-D82F72889F53">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:24:48 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="D80317F6-F2EF-1AC7-CE04-68D5EC800B91" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9CDF8744-7D20-FF37-0B91-024B3760C892</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4C832888-13B1-20FD-1EDC-D4EBDD7989A4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D51AAC56-2DEE-4727-F41F-87B36F53718C" name="notificacion">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:19:54 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="D80317F6-F2EF-1AC7-CE04-68D5EC800B91" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="identificador" id="31452220-9CFB-EF82-E9B8-8FE8E1CEC07E">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:20:00 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="D80317F6-F2EF-1AC7-CE04-68D5EC800B91" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>32</dataTypeScale>
+<ownDataTypeParameters>,0,32</ownDataTypeParameters>
+</Attribute>
+<Attribute name="notificadoa" id="D8FD9638-F9C2-1B1A-6019-4408DE57CB7F">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:20:14 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="D80317F6-F2EF-1AC7-CE04-68D5EC800B91" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mensaje" id="16A6059E-257A-9E65-ADE5-9E497AFFAA3E">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:20:36 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="D80317F6-F2EF-1AC7-CE04-68D5EC800B91" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="esnotificado" id="66DCF6D6-0EDE-5E2E-C4A3-A8C30490FACE">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:21:02 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="D80317F6-F2EF-1AC7-CE04-68D5EC800B91" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

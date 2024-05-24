@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tarifa_servicio" directorySegmentName="seg_0" id="97F681DD-B170-6891-8A22-25C2CDCD974C">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:23:54 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="D80317F6-F2EF-1AC7-CE04-68D5EC800B91" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6BB84A2A-E69F-2222-7848-4A50A3DD05DB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>00ED4E2F-F05C-5ED3-5F13-EC1E3717312D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="evento_notificacion" directorySegmentName="seg_0" id="482D86EE-71FD-FACC-D857-15FBA9302032">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:25:01 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="D80317F6-F2EF-1AC7-CE04-68D5EC800B91" value="true"/>
+</engineerTo>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4C832888-13B1-20FD-1EDC-D4EBDD7989A4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D51AAC56-2DEE-4727-F41F-87B36F53718C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

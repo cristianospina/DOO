@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19146D80-02F7-45F3-9EC8-34E789DE2185" name="servicio">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:25:55 UTC</createdTime>
+<generatorID>00ED4E2F-F05C-5ED3-5F13-EC1E3717312D</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="identificador" id="A9075B29-871D-B6C4-26B6-0D2F13B17BDB">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:25:55 UTC</createdTime>
+<generatorID>EC30AE18-042F-E97C-34F8-0FCF7868A2DB</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>32</dataTypeScale>
+<ownDataTypeParameters>,0,32</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="9D8786BE-D373-5EA0-6255-9174D203CA8C">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:25:55 UTC</createdTime>
+<generatorID>1A6610D2-BBDF-18C7-CA81-99840E8BBAA0</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="93403E78-303F-B1B2-1C35-B63BEF5FC4B4">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:25:55 UTC</createdTime>
+<generatorID>97A50258-8AA4-270D-6840-4CC9586759E2</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="servicio_ID" id="218C9E4B-D8B7-BA53-73C6-034B6D088487">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:25:55 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="tarifa_tarifa_ID" id="CACA88E9-B1C4-0DE3-6C22-7134EF7BED34">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:25:55 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79250DA3-5F3D-E358-2D6B-3A9F45FAC703" referredColumn="A9AF1867-DFC0-E2FC-5D17-CE0F6593D1A4"/>
+</associations>
+</Column>
+<Column name="tiposervicio_tiposervicio_ID" id="FA8A410F-9BE5-F0FD-2F1D-7FA475E383C3">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:25:55 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5419565A-46AD-944A-3B5F-94C85787894E" referredColumn="21D2818B-7B90-7332-1750-39F62D5808F4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="517749A3-FD33-F908-D3DB-9D0D0CEBF14A" name="servicio_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:25:55 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="218C9E4B-D8B7-BA53-73C6-034B6D088487"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15EB3B12-6295-35E0-86A1-F9E82CDBAE84" name="servicio_tarifa_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:25:55 UTC</createdTime>
+<generatorID>97F681DD-B170-6891-8A22-25C2CDCD974C</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CACA88E9-B1C4-0DE3-6C22-7134EF7BED34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C770369-2C97-4664-BE12-6E9EDC7D7CD0" name="servicio_tiposervicio_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:25:55 UTC</createdTime>
+<generatorID>B6D8D99A-6A72-D91C-897E-C980CA7728F5</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA8A410F-9BE5-F0FD-2F1D-7FA475E383C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

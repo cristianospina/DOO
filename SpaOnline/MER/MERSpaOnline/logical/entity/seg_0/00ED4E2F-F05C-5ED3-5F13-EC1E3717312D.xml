@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="00ED4E2F-F05C-5ED3-5F13-EC1E3717312D" name="servicio">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:15:39 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="D80317F6-F2EF-1AC7-CE04-68D5EC800B91" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="identificador" id="EC30AE18-042F-E97C-34F8-0FCF7868A2DB">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:16:13 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="D80317F6-F2EF-1AC7-CE04-68D5EC800B91" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>32</dataTypeScale>
+<ownDataTypeParameters>,0,32</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="1A6610D2-BBDF-18C7-CA81-99840E8BBAA0">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:16:27 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="D80317F6-F2EF-1AC7-CE04-68D5EC800B91" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="97A50258-8AA4-270D-6840-4CC9586759E2">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:16:46 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="D80317F6-F2EF-1AC7-CE04-68D5EC800B91" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

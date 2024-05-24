@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2DDF2C8E-E3D4-CDCB-3DD6-7C8E2779BF29" name="evento">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:25:55 UTC</createdTime>
+<generatorID>4C832888-13B1-20FD-1EDC-D4EBDD7989A4</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="identificador" id="2208EE6F-1CA1-F88A-A25A-C8DFFF129D0E">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:25:55 UTC</createdTime>
+<generatorID>753FAAE4-9AD0-6263-B418-E9DC138D9C90</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>32</dataTypeScale>
+<ownDataTypeParameters>,0,32</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="A1900D05-4EE3-4EED-3E33-A558C84DB88F">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:25:55 UTC</createdTime>
+<generatorID>271561D3-CC62-9CBE-014E-BB4C91E74A46</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="evento_ID" id="EA2B4A63-F845-CD35-F064-E1CBE5672EA5">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:25:55 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="oferta_oferta_ID" id="E0D30847-EE07-D680-EC79-098B40CC837A">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:25:55 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67C18A49-3535-F7B5-1D7E-8037872F55D0" referredColumn="3490B455-2266-62DE-5D56-0A57AC0909CF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5CCD7D7D-7029-5A5F-E819-B3EBB4D78C5A" name="evento_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:25:55 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="EA2B4A63-F845-CD35-F064-E1CBE5672EA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4781965D-F630-23B3-464A-928DC9095542" name="evento_oferta_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:25:55 UTC</createdTime>
+<generatorID>C5712BCF-A42E-5CC7-9FF9-D82F72889F53</generatorID>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0D30847-EE07-D680-EC79-098B40CC837A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

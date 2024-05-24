@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="estado_tarifa" directorySegmentName="seg_0" id="87A8D50B-9D39-2301-06CF-5F7E54B6FF5B">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-24 19:23:27 UTC</createdTime>
+<ownerDesignName>MERSpaOnline</ownerDesignName>
+<engineerTo>
+<item key="D80317F6-F2EF-1AC7-CE04-68D5EC800B91" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>943F84EA-61D3-0BED-967E-381EACCD936A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6BB84A2A-E69F-2222-7848-4A50A3DD05DB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
