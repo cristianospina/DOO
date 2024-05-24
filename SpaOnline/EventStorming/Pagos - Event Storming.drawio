@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-04-04T01:04:47.721Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="YeBGmQfly_XLyik21J8X" version="23.0.2" type="device" pages="4">
+<mxfile host="Electron" modified="2024-05-23T23:42:08.232Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="n1Ns5CMBi2WF2o5zE0zI" version="23.0.2" type="device" pages="4">
   <diagram name="Flujo de eventos" id="zBhicTsyFizKEP22qASS">
-    <mxGraphModel dx="1120" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="880" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
             <mxPoint x="390" y="152.64187866927594" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WYxPXVG2yBXY65vRxHix-4" value="Pago&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="DtO1B4QK6cwAfSESsc6j-1" vertex="1">
+        <mxCell id="WYxPXVG2yBXY65vRxHix-4" value="Pago&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" parent="DtO1B4QK6cwAfSESsc6j-1" vertex="1">
           <mxGeometry x="-20" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WYxPXVG2yBXY65vRxHix-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" parent="DtO1B4QK6cwAfSESsc6j-1" source="DtO1B4QK6cwAfSESsc6j-2" target="WYxPXVG2yBXY65vRxHix-4" edge="1">
@@ -24,30 +24,6 @@
             <mxPoint x="110" y="680" as="targetPoint" />
             <mxPoint x="110" y="120" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="WYxPXVG2yBXY65vRxHix-1" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="260" y="40" width="110" height="650" as="geometry" />
-        </mxCell>
-        <mxCell id="WYxPXVG2yBXY65vRxHix-2" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 36px;&quot;&gt;2&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" parent="WYxPXVG2yBXY65vRxHix-1" vertex="1">
-          <mxGeometry width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="WYxPXVG2yBXY65vRxHix-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" parent="WYxPXVG2yBXY65vRxHix-1" source="WYxPXVG2yBXY65vRxHix-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="40" y="640" as="targetPoint" />
-            <mxPoint x="390" y="152.64187866927594" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WYxPXVG2yBXY65vRxHix-6" value="Factura" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="WYxPXVG2yBXY65vRxHix-1" vertex="1">
-          <mxGeometry x="-20" y="140" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WYxPXVG2yBXY65vRxHix-7" value="TipoPago" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="WYxPXVG2yBXY65vRxHix-1" vertex="1">
-          <mxGeometry x="-20" y="280" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WYxPXVG2yBXY65vRxHix-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="WYxPXVG2yBXY65vRxHix-4" target="WYxPXVG2yBXY65vRxHix-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WYxPXVG2yBXY65vRxHix-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="WYxPXVG2yBXY65vRxHix-4" target="WYxPXVG2yBXY65vRxHix-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
