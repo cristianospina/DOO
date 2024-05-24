@@ -1,0 +1,258 @@
+<mxfile host="Electron" modified="2024-05-24T20:50:02.349Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="4NjPmAd9AJS-q3yJsWmP" version="22.1.2" type="device">
+  <diagram name="Página-1" id="_WK2kKmS13Pb3kSvMyUr">
+    <mxGraphModel dx="4412" dy="3259" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TENSq_-YTJ1afpd0sng1-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TENSq_-YTJ1afpd0sng1-38" target="TENSq_-YTJ1afpd0sng1-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="340" />
+              <mxPoint x="350" y="340" />
+              <mxPoint x="350" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TENSq_-YTJ1afpd0sng1-38" target="TENSq_-YTJ1afpd0sng1-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="340" />
+              <mxPoint x="350" y="340" />
+              <mxPoint x="350" y="675" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TENSq_-YTJ1afpd0sng1-1" target="TENSq_-YTJ1afpd0sng1-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-1" value="ServicioController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="283" width="330" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-1">
+          <mxGeometry y="26" width="330" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-4" value="obtenerDummy()&lt;br&gt;consultarServicioController(ServicioDTO) : ServicioDTO&lt;br&gt;registrarServicioController(ServicioDTO):Void&lt;br&gt;modificarServicioController(ServicioDTO):Void&lt;br&gt;EliminarServicioController(UUID):Void&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-1">
+          <mxGeometry y="34" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TENSq_-YTJ1afpd0sng1-5" target="TENSq_-YTJ1afpd0sng1-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="120" />
+              <mxPoint x="1050" y="300" />
+              <mxPoint x="1430" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TENSq_-YTJ1afpd0sng1-5" target="TENSq_-YTJ1afpd0sng1-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TENSq_-YTJ1afpd0sng1-1" target="TENSq_-YTJ1afpd0sng1-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-60" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-5" value="ConsultarServicioUseCase&lt;br&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="40" width="390" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-6" value="DAOFactory factory" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-5">
+          <mxGeometry y="26" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-5">
+          <mxGeometry y="52" width="390" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-8" value="constructor()&lt;br&gt;execute(ServicioDomain): ServicioDTO&lt;br&gt;ValidarServicioMismoNombreMismoTipoServicio(String, UUID):Void&lt;br&gt;validarIntegridadDato(ServicioDomain):void&lt;br&gt;validarLongitudDato(String):void&lt;br&gt;validarFormato(String):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-5">
+          <mxGeometry y="60" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TENSq_-YTJ1afpd0sng1-9" target="TENSq_-YTJ1afpd0sng1-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="675" />
+              <mxPoint x="1050" y="300" />
+              <mxPoint x="1430" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-9" value="RegistrarServicioUseCase" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="590" width="390" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-10" value="DAOFactory factory" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-9">
+          <mxGeometry y="26" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-9">
+          <mxGeometry y="52" width="390" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-12" value="constructor()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;execute(ServicioDomain): ServicioDTO&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;ValidarServicioMismoNombreMismoTipoServicio(String, UUID):Void&lt;br&gt;ValidartarifaCorrecta(Long):void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;validarIntegridadDato(ServicioDomain):void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;validarLongitudDato(String):void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;validarFormato(String):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-9">
+          <mxGeometry y="60" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TENSq_-YTJ1afpd0sng1-13" target="TENSq_-YTJ1afpd0sng1-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="480" />
+              <mxPoint x="1050" y="300" />
+              <mxPoint x="1430" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TENSq_-YTJ1afpd0sng1-13" target="TENSq_-YTJ1afpd0sng1-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="480" />
+              <mxPoint x="1050" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-13" value="ModificarServicioUseCase" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="390" width="390" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-14" value="DAOFactory factory" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-13">
+          <mxGeometry y="26" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-13">
+          <mxGeometry y="52" width="390" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-16" value="constructor()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;execute(ServicioDomain): ServicioDTO&lt;br&gt;ValidarServicioMismoNombre(String, UUID):Void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;ValidarServicioExista(String, UUID):Void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;validarIntegridadDato(ServicioDomain):void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;validarLongitudDato(String):void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;validarFormato(String):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-13">
+          <mxGeometry y="60" width="390" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TENSq_-YTJ1afpd0sng1-17" target="TENSq_-YTJ1afpd0sng1-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1430" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TENSq_-YTJ1afpd0sng1-17" target="TENSq_-YTJ1afpd0sng1-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="300" />
+              <mxPoint x="1050" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-17" value="EliminarServicioUseCase" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="214" width="390" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-18" value="DAOFactory factory" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-17">
+          <mxGeometry y="26" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-17">
+          <mxGeometry y="52" width="390" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-20" value="constructor()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;execute(ServicioDomain): ServicioDTO&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;ValidarServicioExista(String, UUID):Void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;validarIntegridadDato(ServicioDomain):void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;validarLongitudDato(String):void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;validarFormato(String):void&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-17">
+          <mxGeometry y="60" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TENSq_-YTJ1afpd0sng1-38" target="TENSq_-YTJ1afpd0sng1-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="340" />
+              <mxPoint x="350" y="340" />
+              <mxPoint x="350" y="294" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TENSq_-YTJ1afpd0sng1-38" target="TENSq_-YTJ1afpd0sng1-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="340" />
+              <mxPoint x="350" y="340" />
+              <mxPoint x="350" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-26" value="AzureSQLDAOFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="-120" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-26">
+          <mxGeometry y="26" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-29" value="Constructor()&lt;br&gt;AbrirConexion():void&lt;br&gt;cerrarConexion():void&lt;br&gt;iniciarTransaccion():void&lt;br&gt;confirmarTransaccion():void&lt;br&gt;cancelarTransaccion():void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-26">
+          <mxGeometry y="34" width="300" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-34" value="ServicioDomain" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="850" width="420" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-35" value="id: UUID&lt;br&gt;nombre: String&lt;br&gt;descripcion: String&lt;br&gt;tarifa:long&lt;br&gt;tiposervicio: Tiposervicio" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-34">
+          <mxGeometry y="26" width="420" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-36" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-34">
+          <mxGeometry y="100" width="420" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-37" value="constructor(UUID,String,String,long,Tiposervicio)&lt;br&gt;build(UUID, String,String, long, TipoServicio):ServicioDomain&lt;br&gt;build(UUID):ServicioDomain&lt;br&gt;build():ServicioDomain" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-34">
+          <mxGeometry y="108" width="420" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-38" value="ServicioAssemblerDTO" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="280" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-39" value="Intancia" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-38">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-40" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-38">
+          <mxGeometry y="52" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-41" value="getinstance():instancia&lt;br&gt;toDomain(ServicioDTO):ServicioDomain&lt;br&gt;toDTO(ServicioDomain):ServicioDTO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-38">
+          <mxGeometry y="60" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TENSq_-YTJ1afpd0sng1-42" target="TENSq_-YTJ1afpd0sng1-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1370" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TENSq_-YTJ1afpd0sng1-42" target="TENSq_-YTJ1afpd0sng1-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-42" value="ServicioAssemblerEntity" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="300" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-43" value="Intancia" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-42">
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-44" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-42">
+          <mxGeometry y="52" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-45" value="getinstance():intancia&lt;br&gt;toDomain(ServicioEntity)&lt;br&gt;toEntity()ServicioDomain:ServicioEntity" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-42">
+          <mxGeometry y="60" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-53" value="ServicioDTO" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="850" width="480" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-54" value="id:UUID&lt;br&gt;nombre: String&lt;br&gt;descripcion:String&lt;br&gt;tarifa:long&lt;br&gt;tiposervicio:TipoServicio" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-53">
+          <mxGeometry y="26" width="480" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-55" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-53">
+          <mxGeometry y="100" width="480" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-56" value="constructor(UUID, String, String,long, Tiposervicio)&lt;br&gt;build(UUID, String,String, long, TipoServicio):ServicioDTO&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;build(UUID):ServicioDTO&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;build():ServicioDTO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-53">
+          <mxGeometry y="108" width="480" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-58" value="ServicioEntity" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="610" width="420" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-59" value="id: UUID&lt;br&gt;nombre: String&lt;br&gt;descripcion: String&lt;br&gt;tarifa:long&lt;br&gt;tiposervicio: Tiposervicio" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-58">
+          <mxGeometry y="26" width="420" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-60" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-58">
+          <mxGeometry y="100" width="420" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-61" value="constructor(UUID,String,String,long,Tiposervicio)&lt;br&gt;build(UUID, String,String, long, TipoServicio):ServicioEntity&lt;br&gt;build(UUID):ServicioEntity&lt;br&gt;build():ServicioEntity" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-58">
+          <mxGeometry y="108" width="420" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-67" value="ServicioAzureSqlDAO" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="295" width="290" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-69" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-67">
+          <mxGeometry y="26" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TENSq_-YTJ1afpd0sng1-70" value="constructor():&lt;br&gt;Crear(ServicioEntity):void&lt;br&gt;consultar(ServicioEntity):List&amp;lt;ServicioEntity&amp;gt;&lt;br&gt;fomrarsentenciaConsulta(ServicioEntity):string&lt;br&gt;modificar(ServicioEntity):void&lt;br&gt;Eliminar(UUID):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TENSq_-YTJ1afpd0sng1-67">
+          <mxGeometry y="34" width="290" height="96" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
