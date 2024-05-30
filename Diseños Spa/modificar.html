@@ -28,13 +28,11 @@
   </header>
 
   <main>
-   
-
-    <section class="Modificar" id = "Modificar">
+    <section class="Modificar" id="Modificar">
       <h2>Modificar servicio</h2>
       <form action="#">
-        <label for="nombreAnterior">Nombre servicio que desea modificar:</label>
-        <input type="text" id="nombreAnterior" name="nombreAnterior" required>
+        <label for="id">ID servicio:</label>
+        <input type="text" id="id" name="id" required>
 
         <label for="nombre">Nuevo nombre:</label>
         <input type="text" id="nombre" name="nombre" required>
@@ -42,13 +40,13 @@
         <label for="descripcion">Nueva descripción:</label>
         <textarea id="descripcion" name="descripcion" required></textarea>
 
-        <label for="valorservicio">Nuevo Valor:</label>
-        <textarea id="valorservicio" name = "valorservicio" required></textarea>
+        <label for="tarifa">Nuevo Valor:</label>
+        <textarea id="tarifa" name="tarifa" required></textarea>
         
         <select name="tiposervicio" id="tiposervicio">
-          <option value="valor1">TipoServicio1</option>
-          <option value="valor2">TipoServicio2</option>
-          <option value="valor3">TipoServicio3</option>
+          <option value="Facial">Facial</option>
+          <option value="Corporal">Corporal</option>
+          <option value="Especifico">Especifico</option>
         </select>
         
         <button type="submit">Modificar servicio</button>
@@ -68,4 +66,3 @@
   <script src="servicio.js"></script>
 </body>
 </html>
-

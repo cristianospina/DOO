@@ -3,31 +3,31 @@ document.addEventListener("DOMContentLoaded", function () {
 
   async function obtenerInformacionServicio() {
     try {
-      const apiUrl = "http://localhost:7105/api/Servicio/1";
+      const apiUrl = "http://localhost:443/api/v1/servicios";
       const response = await fetch(apiUrl);
       const data = await response.json();
 
-      if (data && data.servicio) {
-        const servicio = data.servicio;
-        const servicioElement = document.createElement("tr");
-        servicioElement.classList.add("servicio");
+      if (data && data.datos && data.datos.length > 0) {
+        data.datos.forEach(servicio => {
+          const servicioElement = document.createElement("tr");
+          servicioElement.classList.add("servicio");
 
-        const contenidoHTML = `
-          <td>${servicio.nombre}</td>
-          <td>${servicio.descripcion}</td>
-          <td>${servicio.tipoServicio}</td>
-          <td>${servicio.valorServicio}</td>`;
+          const contenidoHTML = `
+            <td>${servicio.id}</td>
+            <td>${servicio.nombre}</td>
+            <td>${servicio.descipcion}</td>
+            <td>${servicio.tiposervicio}</td>
+            <td>${servicio.tarifa}</td>`;
 
-        servicioElement.innerHTML = contenidoHTML;
-        serviciosContainer.appendChild(servicioElement);
+          servicioElement.innerHTML = contenidoHTML;
+          serviciosContainer.appendChild(servicioElement);
+        });
       } else {
-        serviciosContainer.textContent =
-          "No se encontró información del servicio.";
+        serviciosContainer.textContent = "No se encontró información del servicio.";
       }
     } catch (error) {
       console.error("Error al obtener el servicio:", error);
-      serviciosContainer.textContent =
-        "Ocurrió un error al obtener el servicio. Por favor, inténtalo de nuevo más tarde.";
+      serviciosContainer.textContent = "Ocurrió un error al obtener el servicio. Por favor, inténtalo de nuevo más tarde.";
     }
   }
 
@@ -47,14 +47,15 @@ document.addEventListener('DOMContentLoaded', function() {
       const tipoServicio = document.querySelector('#nombre_select').value;
   
       const data = {
-        "nombre_servicio": nombreServicio,
-        "descripcion_servicio": descripcionServicio,
-        "valor_servicio": valorServicio,
-        "tipo_servicio": tipoServicio
+        "nombre": nombreServicio,
+        "descipcion": descripcionServicio,
+        "tiposervicio": tipoServicio ,
+        "tarifa": valorServicio
+        
       };
   
-      fetch('https://apimocha.com/serviciospa/servicio', {
-        method: 'PUT',
+      fetch('http://localhost:443/api/v1/servicios', {
+        method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
@@ -63,6 +64,8 @@ document.addEventListener('DOMContentLoaded', function() {
       .then(response => {
         if (response.ok) {
           console.log('Datos enviados correctamente a la API.');
+          window.alert('¡Servicio creado exitosamente!');
+          window.location.reload();
           
         } else {
           console.error('Error al enviar datos a la API:', response.status);
@@ -83,22 +86,22 @@ document.addEventListener('DOMContentLoaded', function() {
     form.addEventListener('submit', function(event) {
       event.preventDefault();
   
-      const nombreServicioModificar = document.querySelector('#nombreAnterior').value;
+      const id = document.querySelector('#id').value;
       const nuevoNombre = document.querySelector('#nombre').value;
       const nuevaDescripcion = document.querySelector('#descripcion').value;
       const tipoServicio = document.querySelector('#tiposervicio').value;
-      const valorservicio = document.querySelector('#valorservicio').value;
+      const valorservicio = document.querySelector('#tarifa').value;
   
       const data = {
-        "nombreAnterior": nombreServicioModificar,
+        "id": id,
         "nombre": nuevoNombre,
-        "descripcion": nuevaDescripcion,
+        "descipcion": nuevaDescripcion,
         "tiposervicio": tipoServicio,
-        "valorservicio": valorservicio
+        "tarifa": valorservicio
       };
   
-      fetch('https://apimocha.com/serviciospa/servicio/${nombreServicioModificar}', {
-        method: 'POST',
+      fetch(`http://localhost:443/api/v1/servicios/${id}`, {
+        method: 'PUT',
         headers: {
           'Content-Type': 'application/json'
         },
@@ -107,7 +110,9 @@ document.addEventListener('DOMContentLoaded', function() {
       .then(response => {
         if (response.ok) {
           console.log('Servicio modificado correctamente.');
-          // Aquí puedes realizar alguna acción adicional si es necesario
+          window.alert('¡Servicio modificado exitosamente!');
+          window.location.reload();
+          
         } else {
           console.error('Error al modificar el servicio:', response.status);
           // Manejar el caso de error, si es necesario
@@ -126,23 +131,23 @@ document.addEventListener('DOMContentLoaded', function() {
     form.addEventListener('submit', function(event) {
       event.preventDefault();
   
-      const nombreServicioEliminar = document.querySelector('#nombreEliminar').value;
+      const id = document.querySelector('#nombreEliminar').value;
   
       const data = {
-        "nombre_servicio_eliminar": nombreServicioEliminar
+        "id": id
       };
   
-      fetch('https://apimocha.com/serviciospa/servicio/${nombreEliminar}', {
+      fetch(`http://localhost:443/api/v1/servicios/${id}`, {
         method: 'DELETE',
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify(data)
       })
       .then(response => {
         if (response.ok) {
           console.log('Servicio eliminado correctamente.');
-          // Aquí puedes realizar alguna acción adicional si es necesario
+          window.alert('¡Servicio eliminado exitosamente!');
+          window.location.reload();
         } else {
           console.error('Error al eliminar el servicio:', response.status);
           // Manejar el caso de error, si es necesario
