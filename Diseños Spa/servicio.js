@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
             alert('El nombre del servicio solo debe contener letras.');
             return;
         }
-        if (descripcionServicio.length > maxNombreLength) {
+        if (nombreServicio.length > maxNombreLength) {
           alert(`El nombre del servicio no debe exceder los ${maxNombreLength} caracteres.`);
           return;
       }
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
           alert('El valor del servicio solo debe contener numeros y que sean pósitivos. valida por favor que no tenga letras o signo de negativo');
             return;
         }
-        if (descripcionServicio.length > maxValorLength) {
+        if (valorServicio.length > maxValorLength) {
           alert(`El valor del servicio no debe exceder los ${maxValorLength} caracteres.`);
           return;
       }
