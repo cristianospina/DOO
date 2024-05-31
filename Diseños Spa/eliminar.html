@@ -7,50 +7,46 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
   <header>
     <div class="logo">
       <img src="LogoSpa.jpg" alt="Logo del Spa">
     </div>
     <nav>
-      <ul >
+      <ul>
         <li><a href="index.html">Volver a Menu Principal</a></li>
         <li><a href="mostrar.html">Ir a Mostrar</a></li>
         <li><a href="crear.html">Ir a Crear</a></li>
         <li><a href="modificar.html">Ir a Modificar</a></li>
       </ul>
-  </nav>
+    </nav>
   </header>
-
   <main>
-
-    <section class="Eliminar" id = "Eliminar">
+    <section class="Eliminar" id="Eliminar">
       <h2>Eliminar servicio</h2>
-      <form action="#">
-        <label for="nombreEliminar">id de servicio a eliminar:</label>
-        <input type="text" id="nombreEliminar" name="nombreEliminar" required>
-
-        <button type="submit">Eliminar Servicio</button>
+      <form id="eliminar-form" action="#">
+        <button type="submit">Eliminar Servicio Seleccionado</button>
       </form>
     </section>
-    
     <section class="servicios" id="servicios">
-        <section class="servicio">
-          <h2>Servicios Existentes</h2>
-          <table class="tablaServicio">
-            <tbody id="tablaBody1"></tbody>
-          <div id="servicios1"></div>
-          </table>
-        </section>
-      </section>
-
-
-
-  <script src="servicio.js"></script>
+      <h2>Servicios Existentes</h2>
+      <table class="tablaServicio">
+        <thead>
+          <tr>
+            <th>Seleccionar</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Tipo de Servicio</th>
+            <th>Tarifa</th>
+          </tr>
+        </thead>
+        <tbody id="tablaBody1"></tbody>
+      </table>
+    </section>
+  </main>
+  <script src="eliminar.js"></script>
 </body>
 </html>
 

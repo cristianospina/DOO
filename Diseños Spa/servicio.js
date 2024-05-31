@@ -45,7 +45,39 @@ document.addEventListener('DOMContentLoaded', function() {
       const descripcionServicio = document.querySelector('#descripcion-servicio').value;
       const valorServicio = document.querySelector('#valor-servicio').value;
       const tipoServicio = document.querySelector('#nombre_select').value;
-  
+      
+      const nombreRegex = /^[a-zA-Z\s]+$/;
+      const maxNombreLength = 50;
+        if (!nombreRegex.test(nombreServicio)) {
+            alert('El nombre del servicio solo debe contener letras.');
+            return;
+        }
+        if (descripcionServicio.length > maxNombreLength) {
+          alert(`El nombre del servicio no debe exceder los ${maxNombreLength} caracteres.`);
+          return;
+      }
+        const descripcionRegex = /^[a-zA-Z\s.,]+$/;
+        const maxDescripcionLength = 400;
+        if (!descripcionRegex.test(descripcionServicio)) {
+            alert('La descripcion del servicio solo debe contener letras y espacios.');
+            return;
+        }
+        if (descripcionServicio.length > maxDescripcionLength) {
+          alert(`La descripción del servicio no debe exceder los ${maxDescripcionLength} caracteres.`);
+          return;
+      }
+        const valorRegex = /^[0-9\s]+$/;
+        const maxValorLength = 12;
+        if (!valorRegex.test(valorServicio)) {
+          alert('El valor del servicio solo debe contener numeros y que sean pósitivos. valida por favor que no tenga letras o signo de negativo');
+            return;
+        }
+        if (descripcionServicio.length > maxValorLength) {
+          alert(`El valor del servicio no debe exceder los ${maxValorLength} caracteres.`);
+          return;
+      }
+
+
       const data = {
         "nombre": nombreServicio,
         "descipcion": descripcionServicio,
@@ -69,7 +101,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
         } else {
           console.error('Error al enviar datos a la API:', response.status);
-          
+          window.alert(`Error al crear el servicio, no puede tener el mismo nombre con el mismo tipo`);
         }
       })
       .catch(error => {
@@ -91,7 +123,43 @@ document.addEventListener('DOMContentLoaded', function() {
       const nuevaDescripcion = document.querySelector('#descripcion').value;
       const tipoServicio = document.querySelector('#tiposervicio').value;
       const valorservicio = document.querySelector('#tarifa').value;
-  
+      
+      const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+      if (!uuidRegex.test(id)) {
+          alert('El ID del servicio debe ser un UUID válido.');
+          return;
+      }
+      const nombreRegex = /^[a-zA-Z\s]+$/;
+      const maxNombreLength = 50;
+        if (!nombreRegex.test(nombreServicio)) {
+            alert('El nombre del servicio solo debe contener letras.');
+            return;
+        }
+        if (descripcionServicio.length > maxNombreLength) {
+          alert(`El nombre del servicio no debe exceder los ${maxNombreLength} caracteres.`);
+          return;
+      }
+        const descripcionRegex = /^[a-zA-Z\s.,]+$/;
+        const maxDescripcionLength = 400;
+        if (!descripcionRegex.test(descripcionServicio)) {
+            alert('La descripcion del servicio solo debe contener letras y espacios.');
+            return;
+        }
+        if (descripcionServicio.length > maxDescripcionLength) {
+          alert(`La descripción del servicio no debe exceder los ${maxDescripcionLength} caracteres.`);
+          return;
+      }
+        const valorRegex = /^[0-9\s]+$/;
+        const maxValorLength = 12;
+        if (!valorRegex.test(valorServicio)) {
+          alert('El valor del servicio solo debe contener numeros y que sean pósitivos. valida por favor que no tenga letras o signo de negativo');
+            return;
+        }
+        if (descripcionServicio.length > maxValorLength) {
+          alert(`El valor del servicio no debe exceder los ${maxValorLength} caracteres.`);
+          return;
+      }
+
       const data = {
         "id": id,
         "nombre": nuevoNombre,
@@ -114,8 +182,7 @@ document.addEventListener('DOMContentLoaded', function() {
           window.location.reload();
           
         } else {
-          console.error('Error al modificar el servicio:', response.status);
-          // Manejar el caso de error, si es necesario
+          console.error('Error al modificar el servicio:', response.status , 'Por favor valida que el ID exista en la lista que aparece en la parte de abajo');
         }
       })
       .catch(error => {
@@ -124,38 +191,4 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-  // Eliminar Servicio
-  document.addEventListener('DOMContentLoaded', function() {
-    const form = document.querySelector('#Eliminar form');
-  
-    form.addEventListener('submit', function(event) {
-      event.preventDefault();
-  
-      const id = document.querySelector('#nombreEliminar').value;
-  
-      const data = {
-        "id": id
-      };
-  
-      fetch(`http://localhost:443/api/v1/servicios/${id}`, {
-        method: 'DELETE',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-      })
-      .then(response => {
-        if (response.ok) {
-          console.log('Servicio eliminado correctamente.');
-          window.alert('¡Servicio eliminado exitosamente!');
-          window.location.reload();
-        } else {
-          console.error('Error al eliminar el servicio:', response.status);
-          // Manejar el caso de error, si es necesario
-        }
-      })
-      .catch(error => {
-        console.error('Error al eliminar el servicio:', error);
-      });
-    });
-  });
-  
+ 
