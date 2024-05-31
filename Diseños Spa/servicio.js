@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
           servicioElement.classList.add("servicio");
 
           const contenidoHTML = `
-            <td>${servicio.id}</td>
+ 
             <td>${servicio.nombre}</td>
             <td>${servicio.descipcion}</td>
             <td>${servicio.tiposervicio}</td>

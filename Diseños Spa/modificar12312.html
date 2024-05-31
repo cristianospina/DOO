@@ -9,11 +9,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     
   <link rel="stylesheet" href="style.css">
-  <style>
-    #id {
-      display: none;
-    }
-  </style>
 </head>
 
 <body>
@@ -27,6 +22,7 @@
         <li><a href="mostrar.html">Ir a Mostrar</a></li>
         <li><a href="crear.html">Ir a Crear</a></li>
         <li><a href="eliminar.html">Ir a Eliminar</a></li>
+        
       </ul>
   </nav>
   </header>
@@ -35,7 +31,7 @@
     <section class="Modificar" id="Modificar">
       <h2>Modificar servicio</h2>
       <form action="#">
-        <label for="id"></label>
+        <label for="id">ID servicio:</label>
         <input type="text" id="id" name="id" required>
 
         <label for="nombre">Nuevo nombre:</label>
@@ -47,22 +43,19 @@
         <label for="tarifa">Nuevo Valor:</label>
         <textarea id="tarifa" name="tarifa" required></textarea>
         
-        <label for="selectServicio">Seleccionar servicio:</label>
-        <select id="selectServicio">
-          <option value="">Selecciona un servicio</option>
-        </select>
         <select name="tiposervicio" id="tiposervicio">
-            <option value="Facial">Facial</option>
-            <option value="Corporal">Corporal</option>
-            <option value="Especifico">Especifico</option>
-          </select>
-          
+          <option value="Facial">Facial</option>
+          <option value="Corporal">Corporal</option>
+          <option value="Especifico">Especifico</option>
+        </select>
+        
         <button type="submit">Modificar servicio</button>
       </form>
     </section>
 
     <section class="servicios" id="servicios">
         <section class="servicio">
+          <h2>Servicios Existentes</h2>
           <table class="tablaServicio">
             <tbody id="tablaBody1"></tbody>
           <div id="servicios1"></div>
@@ -70,6 +63,6 @@
         </section>
       </section>
 
-  <script src="modificarselect.js"></script>
+  <script src="servicio.js"></script>
 </body>
 </html>

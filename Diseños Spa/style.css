@@ -73,7 +73,6 @@ nav ul li a {
   text-decoration: none;
 }
 
-
 .servicios {
   padding: 20px;
 }
@@ -117,22 +116,46 @@ form label {
 }
 
 form input,
-form textarea {
+form textarea,
+form select {
   width: 100%;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+  border-color: #393a3b;
+  outline: none;
 }
 
 form button {
   background-color: #393a3b;
   color: #fff;
-  padding:
-  10px 20px;
+  padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   margin-top: 10px;
+}
+
+/* Embellecer los desplegables */
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: #fff;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-caret-down-fill" viewBox="0 0 16 16"> <path d="M7.247 11.14l-4.796-5.481c-.566-.647-.106-1.659.753-1.659H13.796c.86 0 1.32 1.012.753 1.659l-4.796 5.48a1 1 0 0 1-1.512 0z"/> </svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  padding-right: 30px;
+}
+
+select::-ms-expand {
+  display: none;
 }
 
 /* Pie de página */
@@ -142,6 +165,7 @@ footer {
   padding: 10px;
   text-align: center;
 }
+
 .contenedor-banner {
   display: flex;
   flex-direction: column;
@@ -154,7 +178,6 @@ footer {
 }
 
 .contenedor-botones {
-
   display: flex;
   justify-content: space-around;
   gap: 60px;
@@ -169,7 +192,7 @@ h4 {
   margin-top: 50px;
 }
 
-.parragrafo{
+.parragrafo {
   text-align: center;
   margin-top: 70px;
 }
