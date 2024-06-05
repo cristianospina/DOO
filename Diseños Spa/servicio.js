@@ -1,22 +1,30 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", async function () {
   const serviciosContainer = document.getElementById("tablaBody1");
 
   async function obtenerInformacionServicio() {
     try {
-      const apiUrl = "http://localhost:443/api/v1/servicios";
-      const response = await fetch(apiUrl);
-      const data = await response.json();
+      const apiUrlServicios = "http://localhost:443/api/v1/servicios";
+      const responseServicios = await fetch(apiUrlServicios);
+      const dataServicios = await responseServicios.json();
 
-      if (data && data.datos && data.datos.length > 0) {
-        data.datos.forEach(servicio => {
+      if (dataServicios && dataServicios.datos && dataServicios.datos.length > 0) {
+        // Obtenemos los tipos de servicio primero
+        const apiUrlTiposServicio = "http://localhost:443/api/v1/tiposervicios";
+        const responseTiposServicio = await fetch(apiUrlTiposServicio);
+        const dataTiposServicio = await responseTiposServicio.json();
+        
+        const tiposServicioMap = new Map(dataTiposServicio.datos.map(tipo => [tipo.id, tipo.nombre]));
+
+        dataServicios.datos.forEach(servicio => {
           const servicioElement = document.createElement("tr");
           servicioElement.classList.add("servicio");
 
+          const tipoServicioNombre = tiposServicioMap.get(servicio.tiposervicio.id) || 'Desconocido';
+
           const contenidoHTML = `
- 
             <td>${servicio.nombre}</td>
             <td>${servicio.descipcion}</td>
-            <td>${servicio.tiposervicio}</td>
+            <td>${tipoServicioNombre}</td>
             <td>${servicio.tarifa}</td>`;
 
           servicioElement.innerHTML = contenidoHTML;
@@ -33,7 +41,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   obtenerInformacionServicio();
 });
-
 // Este es para Crear un servicio o bueno... esa es la idea
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.querySelector('#Crear form');

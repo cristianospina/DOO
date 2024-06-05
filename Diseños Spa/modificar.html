@@ -35,6 +35,10 @@
     <section class="Modificar" id="Modificar">
       <h2>Modificar servicio</h2>
       <form action="#">
+        <label for="selectServicio">Seleccionar servicio:</label>
+        <select id="selectServicio">
+          <option value="">Selecciona un servicio</option>
+        </select>
         <label for="id"></label>
         <input type="text" id="id" name="id" required>
 
@@ -47,15 +51,14 @@
         <label for="tarifa">Nuevo Valor:</label>
         <textarea id="tarifa" name="tarifa" required></textarea>
         
-        <label for="selectServicio">Seleccionar servicio:</label>
-        <select id="selectServicio">
-          <option value="">Selecciona un servicio</option>
+
+        <label for="tiposervicio">Tipo de servicio:</label> <!-- Cambio: Cambiar el nombre del select -->
+        <select id="tiposervicio"> <!-- Cambio: Cambiar el ID del select -->
+          <option value="">Selecciona un tipo de servicio</option> <!-- Cambio: Agregar un valor por defecto -->
+          <option value="5c690dde-9897-41a3-838c-b10f65d9126d">Corporal</option>
+          <option value="290bbab9-880b-46cf-989e-bb8c5fbe2a23">Especifico</option>
+          <option value="fac7c060-1ff6-4879-90de-d1d5aadc33d4">Facial</option>
         </select>
-        <select name="tiposervicio" id="tiposervicio">
-            <option value="Facial">Facial</option>
-            <option value="Corporal">Corporal</option>
-            <option value="Especifico">Especifico</option>
-          </select>
           
         <button type="submit">Modificar servicio</button>
       </form>
@@ -70,6 +73,6 @@
         </section>
       </section>
 
-  <script src="modificarselect.js"></script>
+  <script src="modificar.js"></script>
 </body>
 </html>

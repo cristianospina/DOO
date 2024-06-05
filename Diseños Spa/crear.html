@@ -7,9 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    
   <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
@@ -24,12 +22,12 @@
         <li><a href="modificar.html">Ir a Modificar</a></li>
         <li><a href="eliminar.html">Ir a Eliminar</a></li>
       </ul>
-  </nav>
+    </nav>
   </header>
 
   <main>
     
-    <section class="Crear" id = "Crear" >
+    <section class="Crear" id="Crear">
       <h2>Crear Servicio</h2>
       <form action="#">
         <label for="nombre-servicio">Nombre Servicio:</label>
@@ -41,27 +39,24 @@
         <label for="descripcion-servicio">Valor Servicio:</label>
         <input type="text" id="valor-servicio" name="valor-servicio" required>
 
-        <select name="nombre-servicio" id="nombre_select">
-          <option value="Facial">Facial</option>
-          <option value="Corporal">Corporal</option>
-          <option value="Especifico">Especifico</option>
-        </select>
+        <label for="nombre-select">Tipo de Servicio:</label>
+        <select name="nombre-servicio" id="nombre-select"></select>
 
         <button type="submit">Crear servicio</button>
       </form>
     </section>
 
     <section class="servicios" id="servicios">
-        <section class="servicio">
-          <h2>Servicios Existentes</h2>
-          <table class="tablaServicio">
-            <tbody id="tablaBody1"></tbody>
+      <section class="servicio">
+        <h2>Servicios Existentes</h2>
+        <table class="tablaServicio">
+          <tbody id="tablaBody1"></tbody>
           <div id="servicios1"></div>
-          </table>
-        </section>
+        </table>
       </section>
+    </section>
 
-  <script src="servicio.js"></script>
+    <script src="crear.js"></script>
+  </main>
 </body>
 </html>
-
